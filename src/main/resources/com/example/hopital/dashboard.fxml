@@ -5,11 +5,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="980.0" prefWidth="1381.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.HelloController">
+<AnchorPane prefHeight="980.0" prefWidth="1381.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.dashboardController">
    <children>
       <BorderPane prefHeight="980.0" prefWidth="1381.0">
          <left>
@@ -22,12 +22,42 @@
                               <Image url="@../../../images/logo.png" />
                            </image>
                         </ImageView>
-                        <Button fx:id="dashboard" layoutX="28.0" layoutY="185.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="243.0" text="DASHBOARD">
+                        <Button fx:id="dashboard" layoutX="28.0" layoutY="184.0" mnemonicParsing="false" onAction="#loadDashboard" prefHeight="51.0" prefWidth="243.0" text="DASHBOARD">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs" layoutX="27.0" layoutY="257.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="243.0" text="UTILISATEURS">
+                        <Button fx:id="utilisateurs" layoutX="27.0" layoutY="257.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="UTILISATEURS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs1" layoutX="28.0" layoutY="328.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="PATIENTS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs11" layoutX="26.0" layoutY="469.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="CONSULTATIONS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs111" layoutX="28.0" layoutY="695.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="MEDICAMENTS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs11111" layoutX="28.0" layoutY="538.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="TRAITEMENT">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs12" layoutX="28.0" layoutY="399.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="SALLE D'ATTENTE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs111111" layoutX="28.0" layoutY="611.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="RDV">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -37,6 +67,9 @@
                </children>
             </VBox>
          </left>
+         <center>
+            <StackPane fx:id="principale" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
       </BorderPane>
    </children>
 </AnchorPane>

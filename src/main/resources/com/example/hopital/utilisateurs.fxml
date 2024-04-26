@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="991.0" prefWidth="1082.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.UtilisateursController">
+   <children>
+      <Text layoutX="268.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user" wrappingWidth="58.330078125" />
+   </children>
+</AnchorPane>
