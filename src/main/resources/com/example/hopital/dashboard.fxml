@@ -32,32 +32,37 @@
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs1" layoutX="28.0" layoutY="328.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="PATIENTS">
+                        <Button fx:id="utilisateurs1" layoutX="28.0" layoutY="778.0" mnemonicParsing="false" onAction="#loadPatient" prefHeight="51.0" prefWidth="243.0" text="PATIENTS">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs11" layoutX="26.0" layoutY="469.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="CONSULTATIONS">
+                        <Button fx:id="utilisateurs11" layoutX="26.0" layoutY="469.0" mnemonicParsing="false" onAction="#loadConsultation" prefHeight="51.0" prefWidth="243.0" text="CONSULTATIONS">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs111" layoutX="28.0" layoutY="695.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="MEDICAMENTS">
+                        <Button fx:id="utilisateurs111" layoutX="28.0" layoutY="695.0" mnemonicParsing="false" onAction="#loadMedicament" prefHeight="51.0" prefWidth="243.0" text="MEDICAMENTS">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs11111" layoutX="28.0" layoutY="538.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="TRAITEMENT">
+                        <Button fx:id="utilisateurs11111" layoutX="28.0" layoutY="538.0" mnemonicParsing="false" onAction="#loadTraitement" prefHeight="51.0" prefWidth="243.0" text="TRAITEMENT">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs12" layoutX="28.0" layoutY="399.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="SALLE D'ATTENTE">
+                        <Button fx:id="utilisateurs12" layoutX="28.0" layoutY="399.0" mnemonicParsing="false" onAction="#loadSalle_attente" prefHeight="51.0" prefWidth="243.0" text="SALLE D'ATTENTE">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button fx:id="utilisateurs111111" layoutX="28.0" layoutY="611.0" mnemonicParsing="false" onAction="#loadUtilisateurs" prefHeight="51.0" prefWidth="243.0" text="RDV">
+                        <Button fx:id="utilisateurs111111" layoutX="28.0" layoutY="615.0" mnemonicParsing="false" onAction="#loadRdv" prefHeight="51.0" prefWidth="243.0" text="RDV">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="utilisateurs2" layoutX="26.0" layoutY="328.0" mnemonicParsing="false" onAction="#loadtype_utilisateur" prefHeight="51.0" prefWidth="243.0" text="TYPES UTILISATEURS">
                            <font>
                               <Font size="18.0" />
                            </font>

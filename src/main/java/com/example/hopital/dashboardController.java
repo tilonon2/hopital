@@ -30,6 +30,42 @@ public class dashboardController {
         loadView("utilisateurs.fxml");
     }
 
+    @FXML
+    private void loadConsultation() {
+        loadView("consultation.fxml");
+    }
+
+    @FXML
+    private void loadMedicament() {
+        loadView("medicament.fxml");
+    }
+
+    @FXML
+    private void loadPatient() {
+        loadView("patient.fxml");
+    }
+
+    @FXML
+    private void loadRdv() {
+        loadView("rdv.fxml");
+    }
+
+    @FXML
+    private void loadSalle_attente() {
+        loadView("salle_attente.fxml");
+    }
+
+    @FXML
+    private void loadTraitement() {
+        loadView("traitement.fxml");
+    }
+
+    @FXML
+    private void loadtype_utilisateur() {
+        loadView("type_utilisateur.fxml");
+    }
+
+
     // Méthode générique pour charger des vues
     private void loadView(String fxmlFile) {
         try {
