@@ -15,3 +15,5 @@ h
 8src/main/java/com/example/hopital/PatientController.java,0\4\04275af7bb34d5f4c65bec639ab0117426c5b8dc
 s
 Csrc/main/java/com/example/hopital/EnregistrerPatientController.java,e\a\ea1f5cb71b5d73e4ce03f95ffdc3c86f302d8295
+g
+7src/main/java/com/example/hopital/CarnetController.java,b\4\b43a210661b0df115643b4504449f4d346b0675b

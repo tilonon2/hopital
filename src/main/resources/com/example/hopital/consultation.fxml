@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.hopital.ConsultationController"
-            prefHeight="991.0" prefWidth="1082.0">
-
+<AnchorPane prefHeight="991.0" prefWidth="1082.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.ConsultationController">
+   <children>
+      <Label layoutX="322.0" layoutY="57.0" prefHeight="28.0" prefWidth="199.0" text="Consultation médicale">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="65.0" layoutX="853.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logo_2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="694.0" layoutY="115.0" text="Date" />
+      <DatePicker layoutX="731.0" layoutY="111.0" />
+      <Label layoutX="15.0" layoutY="349.0" text="Motif de consultation" />
+      <Label layoutX="20.0" layoutY="213.0" text="Antécédents" />
+      <Label layoutX="24.0" layoutY="577.0" text="Sympômes" />
+      <Label layoutX="20.0" layoutY="436.0" text="Mode de vie" />
+      <Label layoutX="19.0" layoutY="685.0" text="Traitement en cours" />
+      <Label layoutX="16.0" layoutY="799.0" text="Traitement " />
+      <Label layoutX="14.0" layoutY="160.0" text="Nom" />
+      <Label layoutX="223.0" layoutY="160.0" text="Prenom" />
+      <ComboBox layoutX="53.0" layoutY="156.0" prefWidth="150.0" />
+      <ComboBox layoutX="292.0" layoutY="156.0" prefWidth="150.0" />
+      <TextArea layoutX="20.0" layoutY="231.0" prefHeight="106.0" prefWidth="914.0" />
+      <TextField layoutX="16.0" layoutY="378.0" prefHeight="40.0" prefWidth="922.0" />
+      <TextArea layoutX="20.0" layoutY="454.0" prefHeight="106.0" prefWidth="914.0" />
+      <TextArea layoutX="20.0" layoutY="595.0" prefHeight="74.0" prefWidth="914.0" />
+      <TextArea layoutX="19.0" layoutY="710.0" prefHeight="74.0" prefWidth="914.0" />
+      <TextArea layoutX="19.0" layoutY="823.0" prefHeight="74.0" prefWidth="907.0" />
+   </children>
 </AnchorPane>
