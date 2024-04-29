@@ -38,7 +38,7 @@ public class dashController implements Initializable {
         List<Book> ls = new ArrayList<>();
 
         Book book = new Book();
-        book.setImageSrc("/images/nouveauxpatients.jpg");
+        book.setImageSrc("/images/newpatients.png");
         book.setName("Nouveaux patients");
         book.setAuthor("3");
         ls.add(book);
