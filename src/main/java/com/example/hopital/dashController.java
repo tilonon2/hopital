@@ -37,15 +37,164 @@ public class dashController implements Initializable {
     private List<Book> recentlyAdded() {
         List<Book> ls = new ArrayList<>();
 
-        //Ajout
         Book book = new Book();
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Nouveaux patients");
+        book.setAuthor("3");
+        ls.add(book);
+
+        //Ajout
+        book = new Book();
 
         book.setImageSrc("/images/book1.jpg");
-        book.setName("book1");
-        book.setAuthor("John");
+        book.setName("RDV prévus ce jour");
+        book.setAuthor("0");
 
         ls.add(book);
         //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des praticiens");
+        book.setAuthor("10");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des patients");
+        book.setAuthor("9");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Nouveau RDV");
+        book.setAuthor("1");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Nouvelles consultations");
+        book.setAuthor("1");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Nouvelles hospitalisations");
+        book.setAuthor("1");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Nouveau soins");
+        book.setAuthor("1");
+
+        ls.add(book);
+        //Fin ajout
+
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Lits occupés");
+        book.setAuthor("1");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Lits libre");
+        book.setAuthor("10");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Consultation en cours...");
+        book.setAuthor("0");
+
+        ls.add(book);
+        //Fin ajout
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Hospitalisations en cours...");
+        book.setAuthor("0");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des prescriptions");
+        book.setAuthor("5");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des consultations");
+        book.setAuthor("5");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des soins");
+        book.setAuthor("5");
+
+        ls.add(book);
+        //Fin ajout
+
+        //Ajout
+        book = new Book();
+
+        book.setImageSrc("/images/book1.jpg");
+        book.setName("Total des hospitalisations");
+        book.setAuthor("5");
+
+        ls.add(book);
+        //Fin ajout
+
+
+        return ls;
 
     }
 }
