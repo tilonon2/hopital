@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="980.0" prefWidth="1082.0" style="-fx-background-color: #ECF3FD;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.dashController">
    <children>
       <HBox prefHeight="980.0" prefWidth="1082.0">
@@ -121,12 +120,12 @@
                         </HBox>
                      </children>
                   </VBox>
-                  <ScrollPane styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
+                  <ScrollPane prefHeight="264.0" prefWidth="715.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
                      <VBox.margin>
                         <Insets left="15.0" top="5.0" />
                      </VBox.margin>
                      <content>
-                        <HBox fx:id="cardLayoout" prefHeight="186.0" prefWidth="1399.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
+                        <HBox fx:id="cardLayoout" alignment="CENTER" prefHeight="247.0" prefWidth="1399.0" spacing="9.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
                      </content>
                   </ScrollPane>
                   <HBox prefHeight="397.0" prefWidth="731.0">
