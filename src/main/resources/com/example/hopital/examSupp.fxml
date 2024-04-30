@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="591.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.ExamSupp">
+   <children>
+      <Label layoutX="81.0" layoutY="94.0" text="Examens de laboratoire" />
+      <Label layoutX="90.0" layoutY="223.0" text="Examens d'imagerie" />
+      <Label layoutX="90.0" layoutY="402.0" text="Autres Examens" />
+      <Label layoutX="76.0" layoutY="141.0" text="Analyses de sang" />
+      <Label layoutX="212.0" layoutY="141.0" text="Analyses d'urine" />
+      <Label layoutX="336.0" layoutY="141.0" text="Ecouvillonnage" />
+      <Label layoutX="90.0" layoutY="287.0" text="Radiographie" />
+      <Label layoutX="273.0" layoutY="296.0" text="Echographie" />
+      <Label layoutX="465.0" layoutY="296.0" text="Tomodensitométrie" />
+      <Label layoutX="90.0" layoutY="470.0" text="Electrocardigramme" />
+      <Label layoutX="287.0" layoutY="479.0" text="Biopsie" />
+      <Label layoutX="472.0" layoutY="497.0" text="Endoscopie" />
+      <TextField layoutX="30.0" layoutY="175.0" />
+      <TextField layoutX="199.0" layoutY="175.0" />
+      <TextField layoutX="364.0" layoutY="175.0" />
+      <TextField layoutX="30.0" layoutY="324.0" />
+      <TextField layoutX="213.0" layoutY="324.0" />
+      <TextField layoutX="405.0" layoutY="324.0" />
+      <TextField layoutX="31.0" layoutY="502.0" />
+      <TextField layoutX="227.0" layoutY="502.0" />
+      <TextField layoutX="426.0" layoutY="515.0" />
+      <Label layoutX="207.0" layoutY="42.0" text="Résultats Des Examens Supplémentaires">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="53.0" fitWidth="62.0" layoutX="757.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logo_2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

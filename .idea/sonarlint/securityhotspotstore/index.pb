@@ -17,3 +17,9 @@ s
 Csrc/main/java/com/example/hopital/EnregistrerPatientController.java,e\a\ea1f5cb71b5d73e4ce03f95ffdc3c86f302d8295
 g
 7src/main/java/com/example/hopital/CarnetController.java,b\4\b43a210661b0df115643b4504449f4d346b0675b
+k
+;src/main/java/com/example/hopital/MainCarnetController.java,a\a\aad8e6c1c10fcbd3199ced52a840b641a0d8c2cd
+i
+9src/main/java/com/example/hopital/ExamSuppController.java,8\e\8ed22e8868acc4e3b86da277355d11c609f41ce3
+y
+Isrc/main/java/com/example/hopital/PrescriptionMédicamentsController.java,c\b\cbb7ace2e0f4bb1ecf9943509e199c6ba04220c7
