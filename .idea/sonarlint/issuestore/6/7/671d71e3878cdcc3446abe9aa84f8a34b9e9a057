@@ -1,0 +1,19 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(ÇÔ†Ø8ğòúˆó1
+m	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞéÇ 8ñòúˆó1
+n	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¤šâ8ñòúˆó1
+|	java:S116"[Rename this field "libelle_typeuser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Æ¦Ğûÿÿÿÿ8…óúˆó1
+x	java:S116"\Rename this field "valider_type_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼àˆ¼8…óúˆó1
+v	java:S116"ZRename this field "table_type_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÔ†Ø8…óúˆó1
+q
+java:S1659"ODeclare "typeutilisateurvue" and all following declarations on a separate line.(±Àİıÿÿÿÿ8†óúˆó1
+j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬—™Æ8ˆóúˆó1
+V
+java:S1854”"8Remove this useless assignment to local variable "conn".(º¸³ª8óúˆó1
+G
+java:S1481”")Remove this unused "conn" local variable.(º¸³ª8óúˆó1
+@
+java:S1128"Remove this duplicated import.(ÃÚ¢„şÿÿÿÿ8óúˆó1
+P
+java:S1144j"3Remove this unused private "chargerDonnees" method.(íà£¾8óúˆó1
