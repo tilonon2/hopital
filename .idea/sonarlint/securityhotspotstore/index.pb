@@ -23,3 +23,7 @@ i
 9src/main/java/com/example/hopital/ExamSuppController.java,8\e\8ed22e8868acc4e3b86da277355d11c609f41ce3
 y
 Isrc/main/java/com/example/hopital/PrescriptionMédicamentsController.java,c\b\cbb7ace2e0f4bb1ecf9943509e199c6ba04220c7
+e
+5src/main/java/com/example/hopital/CardController.java,4\7\479082fa1815f3db8b208e28f5cc178bb1b3ffb8
+t
+Dsrc/main/java/com/example/hopital/AccueilConsultationController.java,7\d\7d7c9579e3c7828174fb5eb2a3dc37188aad7a34

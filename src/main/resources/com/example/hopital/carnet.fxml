@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
@@ -9,12 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="610.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.CarnetController">
    <children>
       <Label layoutX="443.0" layoutY="99.0" text="Date" />
-      <Label layoutX="71.0" layoutY="80.0" text="Nom" />
-      <Label layoutX="234.0" layoutY="80.0" text="Prenom" />
       <Label layoutX="118.0" layoutY="182.0" text="Taille" />
       <Label layoutX="117.0" layoutY="233.0" text="Poids" />
       <Label layoutX="118.0" layoutY="289.0" text="Température Corporelle" />
@@ -22,8 +18,6 @@
       <Label layoutX="125.0" layoutY="385.0" text="Fréquence cardiaque" />
       <Label layoutX="126.0" layoutY="440.0" text="Fréquence Respiratoire" />
       <Label layoutX="127.0" layoutY="495.0" text="Saturation en oxygène" />
-      <ComboBox layoutX="9.0" layoutY="99.0" prefWidth="150.0" />
-      <ComboBox layoutX="180.0" layoutY="99.0" prefWidth="150.0" />
       <DatePicker layoutX="500.0" layoutY="95.0" />
       <TextField layoutX="270.0" layoutY="178.0" />
       <TextField layoutX="270.0" layoutY="229.0" />

@@ -1,4 +1,4 @@
 
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ç¼É¡8Ç©ÏÑñ1
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ç¼É¡8È©ÏÑñ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚÕíßÿÿÿÿÿ8é÷Ëó1
+y
+java:S1450"\Remove the "recentlyAdded" field and declare it as a local variable in the relevant methods.(§ü«8ìûËó1
