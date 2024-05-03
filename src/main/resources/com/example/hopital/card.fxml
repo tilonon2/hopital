@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="192.0" prefWidth="318.0" spacing="15.0" style="-fx-background-radius: 15;" styleClass="shadow" stylesheets="@../../../../../css/styleDash.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="192.0" prefWidth="318.0" spacing="15.0" style="-fx-background-radius: 15;" styleClass="shadow" stylesheets="@../../../../../css/styleDash.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.CardController">
    <children>
       <VBox alignment="CENTER_LEFT" prefHeight="192.0" prefWidth="204.0" spacing="5.0">
          <children>

@@ -168,6 +168,22 @@
                               <Image url="@../../../images/type_user.png" />
                            </image>
                         </ImageView>
+                        <Button fx:id="dashboard1" alignment="CENTER_RIGHT" layoutX="28.0" layoutY="841.0" mnemonicParsing="false" onAction="#loadDashboard" prefHeight="51.0" prefWidth="243.0" text="SPECIALISTES">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <ImageView fitHeight="52.0" fitWidth="80.0" layoutX="34.0" layoutY="841.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/specialistes.png" />
+                           </image>
+                        </ImageView>
                      </children>
                   </AnchorPane>
                </children>
