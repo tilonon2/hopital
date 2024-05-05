@@ -39,16 +39,16 @@ public class dashController implements Initializable {
 
         Book book = new Book();
         book.setImageSrc("/images/newpatients.png");
-        book.setName("Nouveaux patients");
-        book.setAuthor("3");
+        book.setAuthor("Nouveaux patients");
+        book.setName("3");
         ls.add(book);
 
         //Ajout
         book = new Book();
 
         book.setImageSrc("/images/rdvprevuscejour.png");
-        book.setName("RDV prévus ce jour");
-        book.setAuthor("0");
+        book.setAuthor("RDV prévus ce jour");
+        book.setName("0");
 
         ls.add(book);
         //Fin ajout
@@ -56,9 +56,9 @@ public class dashController implements Initializable {
         //Ajout
         book = new Book();
 
-        book.setImageSrc("/images/totaldespraticiens.jpg");
-        book.setName("Total des praticiens");
-        book.setAuthor("10");
+        book.setImageSrc("/images/totaldespraticiens.png");
+        book.setAuthor("Total des praticiens");
+        book.setName("10");
 
         ls.add(book);
         //Fin ajout
@@ -67,8 +67,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/totalpatient.png");
-        book.setName("Total des patients");
-        book.setAuthor("9");
+        book.setAuthor("Total des patients");
+        book.setName("9");
 
         ls.add(book);
         //Fin ajout
@@ -77,8 +77,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/nouveaurdv.png");
-        book.setName("Nouveau RDV");
-        book.setAuthor("1");
+        book.setAuthor("Nouveau RDV");
+        book.setName("1");
 
         ls.add(book);
         //Fin ajout
@@ -87,8 +87,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/nouvellesconsultations.png");
-        book.setName("Nouvelles consultations");
-        book.setAuthor("1");
+        book.setAuthor("Nouvelles consultations");
+        book.setName("1");
 
         ls.add(book);
         //Fin ajout
@@ -97,8 +97,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/consultation-medicale.png");
-        book.setName("Nouvelles hospitalisations");
-        book.setAuthor("1");
+        book.setAuthor("Nouvelles hospitalisations");
+        book.setName("1");
 
         ls.add(book);
         //Fin ajout
@@ -107,8 +107,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/nouveausoins.png");
-        book.setName("Nouveau soins");
-        book.setAuthor("1");
+        book.setAuthor("Nouveau soins");
+        book.setName("1");
 
         ls.add(book);
         //Fin ajout
@@ -118,8 +118,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/consultationencours.png");
-        book.setName("Consultation en cours...");
-        book.setAuthor("0");
+        book.setAuthor("Consultation en cours...");
+        book.setName("0");
 
         ls.add(book);
         //Fin ajout
@@ -127,8 +127,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/hospitalisationsencours.png");
-        book.setName("Hospitalisations en cours...");
-        book.setAuthor("0");
+        book.setAuthor("Hospitalisations en cours...");
+        book.setName("0");
 
         ls.add(book);
         //Fin ajout
@@ -137,8 +137,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/totaldesprescriptions.png");
-        book.setName("Total des prescriptions");
-        book.setAuthor("5");
+        book.setAuthor("Total des prescriptions");
+        book.setName("5");
 
         ls.add(book);
         //Fin ajout
@@ -147,8 +147,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/totaldesconsultations.png");
-        book.setName("Total des consultations");
-        book.setAuthor("5");
+        book.setAuthor("Total des consultations");
+        book.setName("5");
 
         ls.add(book);
         //Fin ajout
@@ -157,8 +157,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/totaldessoins.png");
-        book.setName("Total des soins");
-        book.setAuthor("5");
+        book.setAuthor("Total des soins");
+        book.setName("5");
 
         ls.add(book);
         //Fin ajout
@@ -167,8 +167,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/totaldeshospitalisations.png");
-        book.setName("Total des hospitalisations");
-        book.setAuthor("5");
+        book.setAuthor("Total des hospitalisations");
+        book.setName("5");
 
         ls.add(book);
         //Fin ajout
@@ -177,8 +177,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/litoccupes.png");
-        book.setName("Lits occupés");
-        book.setAuthor("1");
+        book.setAuthor("Lits occupés");
+        book.setName("1");
 
         ls.add(book);
         //Fin ajout
@@ -187,8 +187,8 @@ public class dashController implements Initializable {
         book = new Book();
 
         book.setImageSrc("/images/litlibre.png");
-        book.setName("Lits libre");
-        book.setAuthor("10");
+        book.setAuthor("Lits libre");
+        book.setName("10");
 
         ls.add(book);
         //Fin ajout
