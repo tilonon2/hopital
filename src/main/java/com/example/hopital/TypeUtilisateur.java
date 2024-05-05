@@ -32,6 +32,11 @@ public class TypeUtilisateur {
         this.accesSpecialiste = accesSpecialiste;
     }
 
+    public TypeUtilisateur(int id, String libelle) {
+        this.id = id;
+        this.libelle = libelle;
+    }
+
     // Getters
     public int getId() {
         return id;
@@ -81,4 +86,8 @@ public class TypeUtilisateur {
         return accesSpecialiste;
     }
 
+    @Override
+    public String toString() {
+        return libelle;  // Ceci permet à la ChoiceBox d'afficher le libelle
+    }
 }

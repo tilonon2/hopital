@@ -92,15 +92,14 @@
             <TableColumn fx:id="coltrait" prefWidth="69.0" text="Traitement" />
             <TableColumn fx:id="colpatient" prefWidth="47.0" text="Patient" />
             <TableColumn fx:id="colspe" prefWidth="73.0" text="Specialistes" />
-            <TableColumn prefWidth="32.0" text="Rdv" />
          </columns>
       </TableView>
-      <Button layoutX="24.0" layoutY="653.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="124.0" text="MODIFIER">
+      <Button fx:id="modifier_type_user" layoutX="24.0" layoutY="653.0" mnemonicParsing="false" onAction="#updatefonction" prefHeight="64.0" prefWidth="124.0" text="MODIFIER">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="24.0" layoutY="747.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="124.0" text="SUPPRIMER">
+      <Button layoutX="24.0" layoutY="747.0" mnemonicParsing="false" onAction="#deletefonction" prefHeight="64.0" prefWidth="124.0" text="SUPPRIMER">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>

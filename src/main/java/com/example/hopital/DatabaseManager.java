@@ -6,24 +6,25 @@ import java.sql.SQLException;
 
 public class DatabaseManager {
     private static DatabaseManager instance;
-    private Connection con;
 
     private DatabaseManager() {
-        connect(); // Initialiser la connexion lors de la création de l'instance
+        // Le constructeur ne fait rien de spécifique ici, la connexion est gérée directement dans getConnection
     }
 
-    public static DatabaseManager getInstance() {
+    public static synchronized DatabaseManager getInstance() {
         if (instance == null) {
             instance = new DatabaseManager();
         }
         return instance;
     }
 
-    private void connect() {
+    public Connection getConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/java_hopital", "root", "");
+            // Créer une nouvelle connexion à chaque fois que getConnection est appelée
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/java_hopital", "root", "");
             System.out.println("Connected to the database successfully!");
+            return con;
         } catch (ClassNotFoundException ex) {
             System.out.println("MySQL JDBC Driver not found.");
             ex.printStackTrace();
@@ -31,21 +32,6 @@ public class DatabaseManager {
             System.out.println("Error connecting to the database.");
             ex.printStackTrace();
         }
-    }
-
-    public Connection getConnection() {
-        return con;
-    }
-
-    public void closeConnection() {
-        if (con != null) {
-            try {
-                con.close();
-                System.out.println("Database connection closed.");
-            } catch (SQLException ex) {
-                System.out.println("Error closing the database connection.");
-                ex.printStackTrace();
-            }
-        }
+        return null;
     }
 }

@@ -1,3 +1,17 @@
 
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ì³‚¯úÿÿÿÿ8‡ÚÑñ1
+L
+java:S3740"/Provide the parametrized type for this generic.(»éÜà8†ÕÀÙó1
+s	java:S116"WRename this field "tableau_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»éÜà8¡ÕÀÙó1
+	java:S116"^Rename this field "date_naissance_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤½§œøÿÿÿÿ8¡ÕÀÙó1
+s	java:S116"WRename this field "col_fonction" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(  ¥¸8¡ÕÀÙó1
+t	java:S116"XRename this field "col_naissance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ†ûæ8¡ÕÀÙó1
+s	java:S116 "RRename this field "col_nom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õöØùúÿÿÿÿ8¡ÕÀÙó1
+v	java:S116#"URename this field "col_prenom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·÷Ç§üÿÿÿÿ8¡ÕÀÙó1
+o	java:S116&"SRename this field "col_sexe" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÓó8¡ÕÀÙó1
+t	java:S116)"XRename this field "fonction_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍçÒó8¡ÕÀÙó1
+t	java:S116,"SRename this field "nom_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃéÕšùÿÿÿÿ8¡ÕÀÙó1
+t	java:S116/"SRename this field "mdp_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×å¹—ûÿÿÿÿ8¡ÕÀÙó1
+w	java:S1162"VRename this field "prenom_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•½¹Àúÿÿÿÿ8¡ÕÀÙó1
+r	java:S1165"VRename this field "sexe_f_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ø×Æ8¡ÕÀÙó1
+w	java:S1168"VRename this field "sexe_m_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¯ÌÍşÿÿÿÿ8¡ÕÀÙó1
+X	java:S125"<This block of commented-out lines of code should be removed.(±¡°m8ÚóùÙó1
