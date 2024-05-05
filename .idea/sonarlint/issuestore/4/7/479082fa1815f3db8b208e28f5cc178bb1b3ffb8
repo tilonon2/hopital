@@ -1,3 +1,10 @@
 
+<<<<<<< HEAD
 K
 java:S2140#")Use "java.util.Random.nextInt()" instead.(²÷–Òÿÿÿÿÿ8µùû¬ó1
+=======
+D
+java:S2140#")Use "java.util.Random.nextInt()" instead.(²÷–Òÿÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à
+>>>>>>> dfb2cf97a2143c5f2f2d90d3b3ef6456e3cae857

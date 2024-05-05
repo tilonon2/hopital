@@ -37,6 +37,7 @@ p
 @src/main/java/com/example/hopital/TypeUtilisateurController.java,6\7\671d71e3878cdcc3446abe9aa84f8a34b9e9a057
 g
 7src/main/java/com/example/hopital/CarnetController.java,b\4\b43a210661b0df115643b4504449f4d346b0675b
+<<<<<<< HEAD
 m
 =src/main/java/com/example/hopital/UtilisateursController.java,6\7\67c97e7aaf298b36edb99fcd9d24652e92506299
 g
@@ -45,3 +46,19 @@ e
 5src/main/java/com/example/hopital/dashController.java,0\3\03bbdbbb81bc85ce26062c67fe28af17bdd6cfa2
 b
 2src/main/java/com/example/hopital/Utilisateur.java,4\b\4b359dc1918bc600de57c0d3f5e840f2f00e8b29
+=======
+k
+;src/main/java/com/example/hopital/MainCarnetController.java,a\a\aad8e6c1c10fcbd3199ced52a840b641a0d8c2cd
+i
+9src/main/java/com/example/hopital/ExamSuppController.java,8\e\8ed22e8868acc4e3b86da277355d11c609f41ce3
+y
+Isrc/main/java/com/example/hopital/PrescriptionMédicamentsController.java,c\b\cbb7ace2e0f4bb1ecf9943509e199c6ba04220c7
+<<<<<<< HEAD
+e
+5src/main/java/com/example/hopital/CardController.java,4\7\479082fa1815f3db8b208e28f5cc178bb1b3ffb8
+t
+Dsrc/main/java/com/example/hopital/AccueilConsultationController.java,7\d\7d7c9579e3c7828174fb5eb2a3dc37188aad7a34
+=======
+>>>>>>> 14188fe48cb7a2ffde7c531c39362600aa8f60e5
+>>>>>>> dd0d3ff8182ff9986864318c8c1d0c5c18951430
+>>>>>>> dfb2cf97a2143c5f2f2d90d3b3ef6456e3cae857

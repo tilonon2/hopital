@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TableView layoutY="198.4" prefHeight="513.0" prefWidth="828.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="198.0">
+      <TableView layoutY="404.8" prefHeight="306.0" prefWidth="828.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="405.0">
         <columns>
           <TableColumn prefWidth="75.0" text="ID" />
           <TableColumn prefWidth="75.0" text="NOM" />
@@ -25,7 +28,7 @@
             <TableColumn prefWidth="66.39996337890625" text="ACTIONS" />
         </columns>
       </TableView>
-      <Label layoutX="164.0" layoutY="84.0" prefHeight="27.0" prefWidth="162.0" text="Liste des clients">
+      <Label layoutX="322.0" layoutY="341.0" prefHeight="27.0" prefWidth="162.0" text="Liste des patients">
          <font>
             <Font size="17.0" />
          </font>
@@ -35,7 +38,33 @@
             <Image url="@../../../images/logo_2.png" />
          </image>
       </ImageView>
-      <Label layoutX="576.0" layoutY="145.0" prefHeight="18.0" prefWidth="52.0" text="Trier par" />
-      <ComboBox layoutX="628.0" layoutY="142.0" prefHeight="26.0" prefWidth="111.0" />
+      <Label layoutX="624.0" layoutY="360.0" prefHeight="18.0" prefWidth="52.0" text="Trier par" />
+      <ComboBox layoutX="695.0" layoutY="356.0" prefHeight="26.0" prefWidth="111.0" />
+      <Label layoutX="240.0" layoutY="26.0" text="Enregistrement des patients" />
+      <Label layoutX="155.0" layoutY="81.0" text="Nom" />
+      <Label layoutX="147.0" layoutY="143.0" text="Prénom" />
+      <Label layoutX="381.0" layoutY="271.0" text="Nationalité" />
+      <Label layoutX="375.0" layoutY="81.0" text="Adresse" />
+      <Label layoutX="587.0" layoutY="116.0" text="Sexe" />
+      <Label layoutX="143.0" layoutY="271.0" text="Nationalité" />
+      <Label layoutX="344.0" layoutY="202.0" text="Numéro de téléphone" />
+      <Label layoutX="123.0" layoutY="202.0" text="Date de Naissance" />
+      <Label layoutX="382.0" layoutY="143.0" text="Email" />
+      <TextField layoutX="98.0" layoutY="99.0" />
+      <TextField layoutX="98.0" layoutY="161.0" />
+      <TextField layoutX="328.0" layoutY="99.0" />
+      <TextField layoutX="328.0" layoutY="161.0" />
+      <TextField layoutX="336.0" layoutY="224.0" />
+      <TextField layoutX="342.0" layoutY="292.0" />
+      <TextField layoutX="106.0" layoutY="292.0" />
+      <DatePicker layoutX="85.0" layoutY="224.0" />
+      <RadioButton layoutX="535.0" layoutY="134.0" mnemonicParsing="false" text="Homme" />
+      <RadioButton layoutX="620.0" layoutY="134.0" mnemonicParsing="false" text="Femme" />
+      <Button layoutX="575.0" layoutY="187.0" mnemonicParsing="false" text="Enregistrer le patient" />
+      <ImageView fitHeight="102.0" fitWidth="111.0" layoutX="587.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/enregistrement.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
