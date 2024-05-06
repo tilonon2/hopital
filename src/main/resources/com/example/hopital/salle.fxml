@@ -7,6 +7,7 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -122,354 +123,359 @@
             <Font name="Arial Black" size="26.0" />
          </font>
       </Label>
-      <AnchorPane layoutY="276.0" prefHeight="704.0" prefWidth="1082.0" style="-fx-background-color: fff;">
+      <AnchorPane fx:id="seatpreview" layoutY="276.0" prefHeight="704.0" prefWidth="1082.0" style="-fx-background-color: fff;">
          <children>
-            <VBox layoutY="5.0" prefHeight="691.0" prefWidth="1082.0" spacing="10.0">
-               <children>
-                  <HBox alignment="CENTER_LEFT" prefHeight="110.0" prefWidth="1082.0" spacing="10.0">
+            <SplitPane layoutY="5.0">
+               <items>
+                  <VBox prefHeight="691.0" prefWidth="1082.0" spacing="10.0">
                      <children>
-                        <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="A">
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="32.0" />
-                           </font>
-                        </Label>
-                        <CheckBox fx:id="a1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A1">
-                           <graphic>
-                              <ImageView fx:id="ia1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="a2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A2">
-                           <graphic>
-                              <ImageView fx:id="ia2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="a3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A3">
-                           <graphic>
-                              <ImageView fx:id="ia3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <Pane prefHeight="200.0" prefWidth="200.0" />
-                        <CheckBox fx:id="a4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A4">
-                           <graphic>
-                              <ImageView fx:id="ia4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="a5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A5">
-                           <graphic>
-                              <ImageView fx:id="ia5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="a6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A6">
-                           <graphic>
-                              <ImageView fx:id="ia6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="110.0" prefWidth="1082.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="A">
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="32.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="a1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A1">
+                                 <graphic>
+                                    <ImageView fx:id="ia1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="a2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A2">
+                                 <graphic>
+                                    <ImageView fx:id="ia2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="a3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A3">
+                                 <graphic>
+                                    <ImageView fx:id="ia3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <Pane prefHeight="200.0" prefWidth="200.0" />
+                              <CheckBox fx:id="a4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A4">
+                                 <graphic>
+                                    <ImageView fx:id="ia4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="a5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A5">
+                                 <graphic>
+                                    <ImageView fx:id="ia5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="a6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="A6">
+                                 <graphic>
+                                    <ImageView fx:id="ia6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="B">
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="32.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="b1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B1">
+                                 <graphic>
+                                    <ImageView fx:id="ib1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="b2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B2">
+                                 <graphic>
+                                    <ImageView fx:id="ib2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="b3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B3">
+                                 <graphic>
+                                    <ImageView fx:id="ib3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <Pane prefHeight="200.0" prefWidth="200.0" />
+                              <CheckBox fx:id="b4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B4">
+                                 <graphic>
+                                    <ImageView fx:id="ib4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="b5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B5">
+                                 <graphic>
+                                    <ImageView fx:id="ib5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="b6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B6">
+                                 <graphic>
+                                    <ImageView fx:id="ib6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="C">
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="32.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="c1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C1">
+                                 <graphic>
+                                    <ImageView fx:id="ic1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="c2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C2">
+                                 <graphic>
+                                    <ImageView fx:id="ic2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="c3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C3">
+                                 <graphic>
+                                    <ImageView fx:id="ic3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <Pane prefHeight="200.0" prefWidth="200.0" />
+                              <CheckBox fx:id="c4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C4">
+                                 <graphic>
+                                    <ImageView fx:id="ic4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="c5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C5">
+                                 <graphic>
+                                    <ImageView fx:id="ic5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="c6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C6">
+                                 <graphic>
+                                    <ImageView fx:id="ic6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="D">
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="32.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="d1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D1">
+                                 <graphic>
+                                    <ImageView fx:id="id1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="d2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D2">
+                                 <graphic>
+                                    <ImageView fx:id="id2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="d3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D3">
+                                 <graphic>
+                                    <ImageView fx:id="id3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <Pane prefHeight="200.0" prefWidth="200.0" />
+                              <CheckBox fx:id="d4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D4">
+                                 <graphic>
+                                    <ImageView fx:id="id4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="d5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D5">
+                                 <graphic>
+                                    <ImageView fx:id="id5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox fx:id="d6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D6">
+                                 <graphic>
+                                    <ImageView fx:id="id6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/chaise/icons8-chair-100.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Rounded MT Bold" size="22.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="87.0" prefWidth="1082.0" spacing="100.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Button fx:id="btnseat" mnemonicParsing="false" text="Seat Preview">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Pane prefHeight="200.0" prefWidth="200.0" />
+                              <Button fx:id="btnbook" mnemonicParsing="false" text="Book Tickets Now !!">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
                      </children>
-                  </HBox>
-                  <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
-                     <children>
-                        <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="B">
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="32.0" />
-                           </font>
-                        </Label>
-                        <CheckBox fx:id="b1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B1">
-                           <graphic>
-                              <ImageView fx:id="ib1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="b2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B2">
-                           <graphic>
-                              <ImageView fx:id="ib2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="b3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B3">
-                           <graphic>
-                              <ImageView fx:id="ib3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <Pane prefHeight="200.0" prefWidth="200.0" />
-                        <CheckBox fx:id="b4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B4">
-                           <graphic>
-                              <ImageView fx:id="ib4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="b5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B5">
-                           <graphic>
-                              <ImageView fx:id="ib5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="b6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="B6">
-                           <graphic>
-                              <ImageView fx:id="ib6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                     </children>
-                  </HBox>
-                  <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
-                     <children>
-                        <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="C">
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="32.0" />
-                           </font>
-                        </Label>
-                        <CheckBox fx:id="c1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C1">
-                           <graphic>
-                              <ImageView fx:id="ic1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="c2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C2">
-                           <graphic>
-                              <ImageView fx:id="ic2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="c3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C3">
-                           <graphic>
-                              <ImageView fx:id="ic3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <Pane prefHeight="200.0" prefWidth="200.0" />
-                        <CheckBox fx:id="c4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C4">
-                           <graphic>
-                              <ImageView fx:id="ic4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="c5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C5">
-                           <graphic>
-                              <ImageView fx:id="ic5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="c6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="C6">
-                           <graphic>
-                              <ImageView fx:id="ic6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                     </children>
-                  </HBox>
-                  <HBox alignment="CENTER_LEFT" prefHeight="130.0" prefWidth="1082.0" spacing="10.0">
-                     <children>
-                        <Label alignment="CENTER" prefHeight="137.0" prefWidth="37.0" text="D">
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="32.0" />
-                           </font>
-                        </Label>
-                        <CheckBox fx:id="d1" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D1">
-                           <graphic>
-                              <ImageView fx:id="id1" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="d2" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D2">
-                           <graphic>
-                              <ImageView fx:id="id2" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="d3" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D3">
-                           <graphic>
-                              <ImageView fx:id="id3" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <Pane prefHeight="200.0" prefWidth="200.0" />
-                        <CheckBox fx:id="d4" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D4">
-                           <graphic>
-                              <ImageView fx:id="id4" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="d5" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D5">
-                           <graphic>
-                              <ImageView fx:id="id5" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                        <CheckBox fx:id="d6" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="135.0" prefWidth="159.0" text="D6">
-                           <graphic>
-                              <ImageView fx:id="id6" fitHeight="120.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../images/chaise/icons8-chair-100.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <font>
-                              <Font name="Arial Rounded MT Bold" size="22.0" />
-                           </font>
-                        </CheckBox>
-                     </children>
-                  </HBox>
-                  <HBox alignment="CENTER" prefHeight="87.0" prefWidth="1082.0" spacing="100.0" VBox.vgrow="ALWAYS">
-                     <children>
-                        <Button fx:id="btnseat" mnemonicParsing="false" text="Seat Preview">
-                           <font>
-                              <Font name="System Bold" size="15.0" />
-                           </font>
-                        </Button>
-                        <Button fx:id="btnbook" mnemonicParsing="false" text="Book Tickets Now !!">
-                           <font>
-                              <Font name="System Bold" size="15.0" />
-                           </font>
-                        </Button>
-                     </children>
-                  </HBox>
-               </children>
-            </VBox>
+                  </VBox>
+               </items>
+            </SplitPane>
          </children>
       </AnchorPane>
       <Separator layoutY="260.0" prefHeight="22.0" prefWidth="1082.0" />
