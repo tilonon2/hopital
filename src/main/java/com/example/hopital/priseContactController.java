@@ -12,6 +12,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -207,14 +208,41 @@ public class priseContactController {
             alertpayment.setText("You must enter your card details to proceed.");
             temp = 1;
         }
+        if(temp == 0){
+
+            try {
+                FileWriter out = new FileWriter("Receipts.txt",true);
 
 
+                out.write("\r\nName : "+ pd.getName());
+                out.write("\r\n");
+                out.write("Age: "+ pd.getAge());
+                out.write("\r\n");
+                out.write("Mobile Number : "+ pd.getMob());
+                out.write("\r\n");
+                out.write("Email: "+ pd.getEmail() );
+                out.write("\r\n");
+                out.write("Payment Method : "+ pd.getPayment());
+                out.write("\r\n");
+                out.write("Card Number :"+ "xxxx-xxxx-xxxx-"+ pd.getCard().substring(12,pd.getCard().length()));
+                out.write("\r\n");
+                out.write("------------------------------------------------");
 
+                out.close();
 
+            }
+            catch (Exception e) {
 
+                e.printStackTrace();
+            }
+            return 1;
 
+        }//if ends
+        else{
+            return 0;
+        }
 
-
+    }//confirm method ends
 
 
 }
