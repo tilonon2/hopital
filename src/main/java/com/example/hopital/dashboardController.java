@@ -52,7 +52,7 @@ public class dashboardController {
 
     @FXML
     private void loadSalle_attente() {
-        loadView("salle.fxml");
+        loadView("salle_attente.fxml");
     }
 
     @FXML

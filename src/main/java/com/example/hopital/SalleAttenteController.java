@@ -12,6 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -22,7 +23,7 @@ import java.time.DateTimeException;
 
 public class SalleAttenteController {
     SeatDetails sd = new SeatDetails();
-    //PayeeDetails pd = new PayeeDetails();
+    PayeeDetails pd = new PayeeDetails();
     DatabaseList dl = new DatabaseList();
     int enter = 0; int exit=0; int click = 0;
 
@@ -183,8 +184,11 @@ public class SalleAttenteController {
     @FXML
     private ChoiceBox<String> movies;
 
+    //@FXML
+    //private AnchorPane seatpreview;
+
     @FXML
-    private AnchorPane seatpreview;
+    private VBox seatpreview;
 
     //Image image = new Image ("/images/chaise/icons8-chair-100.png");
 
@@ -1249,6 +1253,17 @@ public class SalleAttenteController {
     public int onBookClicked(){
         int temp = 0;
 
+        // try{
+        //     sd.setMovies(movies.getValue());
+        // }
+
+        // catch (NullPointerException e) {
+        //     temp = 1;
+        //     Alert alert = new Alert(Alert.AlertType.ERROR);
+        //     alert.setContentText("Error: you haven't choose your movie,Please choose it.");
+        //     alert.show();}
+
+
         try{
             sd.setMovies(movies.getValue());
         }
@@ -1256,7 +1271,7 @@ public class SalleAttenteController {
         catch (NullPointerException e) {
             temp = 1;
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error: you haven't choose your movie,Please choose it.");
+            alert.setContentText("Erreur : vous n'avez pas choisi le motif, veuillez en choisir!!");
             alert.show();}
 
         try{
@@ -1266,19 +1281,19 @@ public class SalleAttenteController {
         catch (IllegalArgumentException e) {
             temp = 1;
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error: you have chosen date before today,Please choose upcoming dates.");
+            alert.setContentText("Erreur : vous avez choisi la date avant aujourd'hui, veuillez choisir les dates à venir.");
             alert.show();}
 
         catch (DateTimeException e) {
             temp = 1;
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error: you have chosen date out of range,Please choose date within this week.");
+            alert.setContentText("Erreur : vous avez choisi la date hors plage, veuillez choisir la date dans cette semaine.");
             alert.show();}
 
         catch (NullPointerException e) {
             temp = 1;
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error: you haven't choose your date,Please choose it.");
+            alert.setContentText("Erreur : vous n'avez pas choisi votre date, veuillez la choisir.");
             alert.show();}
 
         int temp2 = 0;
@@ -1450,13 +1465,16 @@ public class SalleAttenteController {
         }
         if(temp2==0){
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText("Error: you haven't choose your seat/s,Please choose it.");
+            alert.setContentText("Erreur : vous n’avez pas choisi votre/vos siège(s), Veuillez la choisir.");
             alert.show();}
 
         //->date
 
 
-        int temp3 =0;
+        int temp3 =1;
+
+
+        // int temp3 =0;
         //	if(rd1.isSelected()){
         //		sd.setShowtime("10:00 AM");
         //		temp3 = 1;
@@ -1477,7 +1495,9 @@ public class SalleAttenteController {
         //	}
 
 
+        // if(temp == 0 && temp2==1 && num>=1 && temp3 ==1) {
         if(temp == 0 && temp2==1 && num>=1 && temp3 ==1) {
+
             File file = new File("Receipts.txt");
             try {
                 PrintWriter out = new PrintWriter("Receipts.txt");
