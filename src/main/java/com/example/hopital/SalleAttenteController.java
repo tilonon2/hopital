@@ -1514,11 +1514,12 @@ public class SalleAttenteController {
                 out.println();
                 //out.print("Showtime: "+ sd.getShowtime() );
                 //                out.println();
-                out.print("Numéro de Tickets: " + sd.getNumTickets());
+                out.print("Nombre de Sièges: " + sd.getNumTickets());
                 out.println();
-                out.print("Tickets: " + sd.getTicketName().substring(0, sd.getTicketName().length() - 2));
+                out.print("Siège(s) reservé(s): " + sd.getTicketName().substring(0, sd.getTicketName().length() - 2));
                 out.println();
-                out.print("------------------Payee Details--------------------");
+                out.print("-----------------Reception Details----------------");
+
 
 
                 out.close();
