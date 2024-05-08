@@ -64,7 +64,7 @@ public class priseContactController {
     private TextField txtpressionarterielle;
 
     @FXML
-    private TextField txtsaturationoxygène;
+    private TextField txtsaturationoxygene;
 
     @FXML
     private TextField txttaille;
@@ -142,7 +142,17 @@ public class priseContactController {
 
         catch (NullPointerException e) {
             temp = 1;
-            alertname.setText("You must enter your name.");
+            alertname.setText("Vous devez entrer votre Nom.");
+        }
+        //prenom
+        try{
+            pd.setPrenom(txtprenom.getText());
+
+        }
+
+        catch (NullPointerException e) {
+            temp = 1;
+            alertname1.setText("Vous devez entrer votre Nom.");
         }
 
         try{
@@ -152,7 +162,7 @@ public class priseContactController {
 
         catch (Exception e) {
             temp = 1;
-            alertage.setText("You must enter your age.");
+            alertage.setText("Vous devez entrer votre age.");
         }
         try{
             pd.setMob(txtmob.getText());
@@ -161,70 +171,90 @@ public class priseContactController {
 
         catch (NullPointerException e) {
             temp = 1;
-            alertmob.setText("You must enter your mobile number.");
+            alertmob.setText("Vous devez entrer votre Numéro de Téléphone.");
         }
         catch (IllegalArgumentException e) {
             temp = 1;
-            alertmob.setText("Phone number must be of 10 digits.");
+            alertmob.setText("Le numéro de téléphone doit être composé de 10 chiffres.");
         }
 
-        try{
-            pd.setEmail(txtemail.getText());
+        // try{
+        //     pd.setEmail(txtemail.getText());
 
-        }
+        // }
 
-        catch (NullPointerException e) {
-            temp = 1;
-            alertemail.setText("You must enter your email.");
-        }
+        // catch (NullPointerException e) {
+        //     temp = 1;
+        //     alertemail.setText("Vous devez entrer votre email.");
+        // }
 
-        try{
-            pd.setCard(txtcard.getText());
+        // try{
+        //     pd.setCard(txtcard.getText());
 
-        }
+        // }
 
-        catch (NullPointerException e) {
-            temp = 1;
-            alertcard.setText("You must enter your card details");
-        }
+        // catch (NullPointerException e) {
+        //     temp = 1;
+        //     alertcard.setText("Vous devez entrer votre card details");
+        // }
 
-        catch (IllegalArgumentException e) {
-            temp = 1;
-            alertcard.setText("Card number must be of 16 digits.");
-        }
+        // catch (IllegalArgumentException e) {
+        //     temp = 1;
+        //     alertcard.setText("Card number must be of 16 digits.");
+        // }
 
-        int temp2 =0;
-        if(credit.isSelected()){
-            pd.setPayment("Paid by Credit/Debit Card");
-            temp2 =1;
+        // int temp2 =0;
+        // if(credit.isSelected()){
+        //     pd.setPayment("Paid by Credit/Debit Card");
+        //     temp2 =1;
 
-        }
-        if(scene.isSelected()){
-            pd.setPayment("Paid by Scene Card");
-            temp2 =1;
+        // }
+        // if(scene.isSelected()){
+        //     pd.setPayment("Paid by Scene Card");
+        //     temp2 =1;
 
-        }
-        if (temp2 ==0){
-            alertpayment.setText("You must enter your card details to proceed.");
-            temp = 1;
-        }
+        // }
+        // if (temp2 ==0){
+        //     alertpayment.setText("Vous devez entrer votre card details to proceed.");
+        //     temp = 1;
+        // }
+
+        //txt 
+
         if(temp == 0){
 
             try {
                 FileWriter out = new FileWriter("Receipts.txt",true);
 
 
-                out.write("\r\nName : "+ pd.getName());
+                out.write("\r\nNom : "+ pd.getName());
+                out.write("\r\n");
+                out.write("\r\nPrénom : "+ pd.getPrenom());
                 out.write("\r\n");
                 out.write("Age: "+ pd.getAge());
                 out.write("\r\n");
-                out.write("Mobile Number : "+ pd.getMob());
+                out.write("Numéro de Téléphone : "+ pd.getMob());
                 out.write("\r\n");
-                out.write("Email: "+ pd.getEmail() );
+                out.write("Taille : "+ pd.getTaille());
                 out.write("\r\n");
-                out.write("Payment Method : "+ pd.getPayment());
+                out.write("Poids : "+ pd.getPoids());
                 out.write("\r\n");
-                out.write("Card Number :"+ "xxxx-xxxx-xxxx-"+ pd.getCard().substring(12,pd.getCard().length()));
+                out.write("Temperature Corporelle : "+ pd.getTemperatureCorporelle());
+                out.write("\r\n");
+                out.write("Frequence Cardiaque : "+ pd.getFrequenceCardiaque());
+                out.write("\r\n");
+                out.write("Pression Arterielle : "+ pd.getPressionArtérielle());
+                out.write("\r\n");
+                out.write("Fréquence Respiratoire : "+ pd.getFrequenceRespiratoire());
+                out.write("\r\n");
+                out.write("Saturation en Oxygène : "+ pd.getSaturationOxygene());
+                out.write("\r\n");
+                // out.write("Email: "+ pd.getEmail() );
+                // out.write("\r\n");
+                // out.write("Payment Method : "+ pd.getPayment());
+                // out.write("\r\n");
+                // out.write("Card Number :"+ "xxxx-xxxx-xxxx-"+ pd.getCard().substring(12,pd.getCard().length()));
+                // out.write("\r\n");
                 out.write("\r\n");
                 out.write("------------------------------------------------");
 

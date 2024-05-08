@@ -186,9 +186,13 @@ public class SalleAttenteController {
     @FXML
     private AnchorPane seatpreview;
 
-    Image image = new Image ("images/libre.png");
+    //Image image = new Image ("/images/chaise/icons8-chair-100.png");
 
-    Image image1 = new Image ("images/rouge.png");
+    //Image image1 = new Image ("/images/chaise/rouge.png");
+
+    Image image = new Image(getClass().getResource("/images/chaise/icons8-chair-100.png").toExternalForm());
+    Image image1 = new Image(getClass().getResource("/images/chaise/rouge.png").toExternalForm());
+
 
     @FXML private void initialize() {
 
