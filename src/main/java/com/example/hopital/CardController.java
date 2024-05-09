@@ -24,7 +24,7 @@ public class CardController{
 
     //generer les couleurs du cadre Aléatoirement
 
-    private String [] colors = {"#98F5E1", "#5D90A0", "#A6D4DA", "#A78D79","#F0CF9C", "#283618", "#606c38", "#f28482","#023047", "#344e41"};
+    private String [] colors = { "#A78D79","#F0CF9C", "#283618", "#f28482","#023047", "#344e41"};
 
     public void setData(Book book){
         Image image = new Image(getClass().getResourceAsStream(book.getImageSrc()));
@@ -32,7 +32,7 @@ public class CardController{
 
         bookName.setText(book.getName());
         authorName.setText(book.getAuthor());
-        box.setStyle("-fx-background-color: #" + colors[(int) (Math.random() * colors.length)] +";"+
+        box.setStyle("-fx-background-color: " + colors[(int) (Math.random() * colors.length)] +";"+
                 "-fx-background-radius: 15;" +
                 "-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 10);");
     }

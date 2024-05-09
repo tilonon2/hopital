@@ -120,12 +120,12 @@
                         </HBox>
                      </children>
                   </VBox>
-                  <ScrollPane prefHeight="264.0" prefWidth="715.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
+                  <ScrollPane prefHeight="245.0" prefWidth="715.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
                      <VBox.margin>
-                        <Insets left="15.0" top="5.0" />
+                        <Insets left="15.0" />
                      </VBox.margin>
                      <content>
-                        <HBox fx:id="cardLayoout" alignment="CENTER_LEFT" prefHeight="247.0" prefWidth="1399.0" spacing="10.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
+                        <HBox fx:id="cardLayoout" alignment="CENTER_LEFT" prefHeight="227.0" prefWidth="1399.0" spacing="10.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
                      </content>
                   </ScrollPane>
                   <HBox prefHeight="397.0" prefWidth="731.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">

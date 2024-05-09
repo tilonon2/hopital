@@ -1,0 +1,6 @@
+-----------------Reception Details----------------
+Motif : Prise de sang
+Date : 2024-05-08
+Numéro de Tickets: 3
+Tickets: A1, B1, B2
+------------------Payee Details--------------------
