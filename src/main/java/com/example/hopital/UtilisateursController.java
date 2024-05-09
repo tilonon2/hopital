@@ -1,11 +1,16 @@
 package com.example.hopital;
 
+
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import org.w3c.dom.Document;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,6 +24,8 @@ import java.util.logging.Logger;
 public class UtilisateursController implements Initializable {
     @FXML
     private TableView tableau_user;
+    @FXML
+    private ToggleGroup groupeSexe;
     @FXML
     private DatePicker date_naissance_user;
 
@@ -79,6 +86,121 @@ public class UtilisateursController implements Initializable {
     }
 
 
+
+
+
+    @FXML
+    void updatefonction(ActionEvent event) {
+        try (Connection conn = dbManager.getConnection();
+             PreparedStatement pst = conn.prepareStatement("UPDATE user SET nom = ?, prenom = ?,sexe = ?, date_naissance = ?, fonction = ?, mdp = ?, type_user = ? WHERE id = ?")) {
+
+            // Obtenez l'élève sélectionné dans le TableView
+            Utilisateur user = (Utilisateur) tableau_user.getSelectionModel().getSelectedItem();
+
+            if (user != null) { // Vérifiez si un élève est sélectionné avant de mettre à jour
+                String nom = nom_user.getText();
+                String mdp = mdp_user.getText();
+                String prenom = prenom_user.getText();
+                String sexe = sexe_m_user.isSelected() ? "M" : "F";
+                LocalDate dateNaissance = date_naissance_user.getValue();
+                TypeUtilisateur selectedType = fonction_user.getValue();
+
+                pst.setString(1, nom);
+                pst.setString(2, prenom);
+                pst.setString(3, sexe);
+                pst.setDate(4, java.sql.Date.valueOf(dateNaissance));
+                pst.setString(5, selectedType.getLibelle());
+                pst.setString(6, mdp);
+                pst.setInt(7, selectedType.getId());
+                pst.setString(8, String.valueOf(user.getId()));
+
+                int result = pst.executeUpdate();
+                if (result > 0) {
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION, "Utilisateur modifié avec succès.", ButtonType.OK);
+                    alert.showAndWait();
+                    // Vider le TableView avant de charger de nouvelles données
+                    tableau_user.getItems().clear();
+
+                    // Charger les nouvelles données
+                    chargerDonnees();
+
+                    nom_user.setText("");
+                    prenom_user.setText("");
+                    mdp_user.setText("");
+                    nom_user.requestFocus();
+                    sexe_f_user.setSelected(false);
+                    sexe_m_user.setSelected(false);
+                } else {
+                    Alert alert = new Alert(Alert.AlertType.ERROR, "Erreur lors de la modification de l'utilisateur.", ButtonType.OK);
+                    alert.showAndWait();
+                }
+            }else {
+                // Affichez un message d'avertissement si aucun élève n'est sélectionné
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.setTitle("Aucune sélection");
+                alert.setHeaderText(null);
+                alert.setContentText("Veuillez sélectionner un utilisateur à mettre à jour.");
+                alert.showAndWait();
+            }
+        } catch (SQLException ex) {
+                Logger.getLogger(UtilisateursController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+    }
+
+
+
+
+    @FXML
+    void deletefonction(ActionEvent event) {
+        try (Connection conn = dbManager.getConnection();
+             PreparedStatement pst = conn.prepareStatement("DELETE FROM user WHERE id = ?")) {
+
+            Utilisateur user = (Utilisateur) tableau_user.getSelectionModel().getSelectedItem();
+
+            if (user != null) { // Vérifiez si un élève est sélectionné avant de mettre à jour
+
+                // Définir les paramètres de la déclaration
+                pst.setInt(1, user.getId());
+                // Exécuter la requête de suppression
+                pst.executeUpdate();
+
+                // Réinitialiser le formulaire
+                nom_user.setText("");
+                prenom_user.setText("");
+                mdp_user.setText("");
+                nom_user.requestFocus();
+                sexe_f_user.setSelected(false);
+                sexe_m_user.setSelected(false);
+
+                // Afficher une alerte d'information sur l'enregistrement réussi
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle(" Utilisateur");
+                alert.setHeaderText("Suppression de l'utilisateur");
+                alert.setContentText(" Utilisateur Supprimé avec succès");
+                alert.showAndWait();
+
+                // Vider le TableView avant de charger de nouvelles données
+                tableau_user.getItems().clear();
+
+                // Charger les nouvelles données
+                chargerDonnees();
+
+            } else {
+                // Affichez un message d'avertissement si aucun élève n'est sélectionné
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.setTitle("Aucune sélection");
+                alert.setHeaderText(null);
+                alert.setContentText("Veuillez sélectionner un utilisateur à supprimer.");
+                alert.showAndWait();
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(FXMLDocumentController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+
+
+
     private void chargerDonnees() {
             try (Connection conn = dbManager.getConnection();
                  PreparedStatement pst = conn.prepareStatement("SELECT * FROM user")) {
@@ -137,6 +259,20 @@ public class UtilisateursController implements Initializable {
             if (result > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION, "Utilisateur enregistré avec succès.", ButtonType.OK);
                 alert.showAndWait();
+                // Vider le TableView avant de charger de nouvelles données
+                tableau_user.getItems().clear();
+
+                // Charger les nouvelles données
+                chargerDonnees();
+
+                nom_user.setText("");
+                prenom_user.setText("");
+                mdp_user.setText("");
+                nom_user.requestFocus();
+                sexe_f_user.setSelected(false);
+                sexe_m_user.setSelected(false);
+
+
             } else {
                 Alert alert = new Alert(Alert.AlertType.ERROR, "Erreur lors de l'enregistrement de l'utilisateur.", ButtonType.OK);
                 alert.showAndWait();
@@ -180,5 +316,12 @@ public class UtilisateursController implements Initializable {
         col_fonction.setCellValueFactory(new PropertyValueFactory<>("fonction"));
         chargerDonnees();
         configurerSelectionTable();
+
+        // Création du groupe de boutons radio
+        groupeSexe = new ToggleGroup();
+
+        // Assignation des boutons radio au groupe
+        sexe_m_user.setToggleGroup(groupeSexe);
+        sexe_f_user.setToggleGroup(groupeSexe);
     }
 }

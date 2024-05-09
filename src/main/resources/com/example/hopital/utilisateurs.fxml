@@ -78,17 +78,17 @@
             <TableColumn fx:id="col_fonction" prefWidth="215.0" text="FONCTION" />
         </columns>
       </TableView>
-      <Button layoutX="14.0" layoutY="655.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="124.0" text="MODIFIER">
+      <Button layoutX="5.0" layoutY="655.0" mnemonicParsing="false" onAction="#updatefonction" prefHeight="64.0" prefWidth="133.0" text="MODIFIER">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="14.0" layoutY="749.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="124.0" text="SUPPRIMER">
+      <Button layoutX="5.0" layoutY="737.0" mnemonicParsing="false" onAction="#deletefonction" prefHeight="64.0" prefWidth="133.0" text="SUPPRIMER">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="14.0" layoutY="839.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="124.0" text="IMPRIMER">
+      <Button layoutX="5.0" layoutY="818.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="133.0" text="IMPRIMER">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
@@ -99,5 +99,10 @@
             <Font size="23.0" />
          </font>
       </Text>
+      <Button layoutX="5.0" layoutY="895.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="133.0" text="SAUVEGARDER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

@@ -312,7 +312,7 @@ public class TypeUtilisateurController implements Initializable {
                 Alert alert = new Alert(Alert.AlertType.WARNING);
                 alert.setTitle("Aucune sélection");
                 alert.setHeaderText(null);
-                alert.setContentText("Veuillez sélectionner un élève à supprimer.");
+                alert.setContentText("Veuillez sélectionner un Type utilisateur à supprimer.");
                 alert.showAndWait();
             }
         } catch (SQLException ex) {

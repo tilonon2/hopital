@@ -21,19 +21,19 @@
                <Image url="@../../../images/logo.png" />
             </image>
          </ImageView>
-         <TextField layoutX="424.0" layoutY="258.0" opacity="0.5" prefHeight="60.0" prefWidth="494.0" style="-fx-border-color: #0b8fac;" text="PSEUDO" />
+         <TextField fx:id="pseudo" layoutX="424.0" layoutY="258.0" opacity="0.5" prefHeight="60.0" prefWidth="494.0" style="-fx-border-color: #0b8fac;" text="PSEUDO" />
          <ImageView fitHeight="60.0" fitWidth="83.0" layoutX="326.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
             <image>
                <Image url="@../../../images/user.png" />
             </image>
          </ImageView>
-         <TextField layoutX="424.0" layoutY="378.0" opacity="0.5" prefHeight="60.0" prefWidth="494.0" style="-fx-border-color: #0b8fac;" text="MOT DE PASSE" />
+         <TextField fx:id="mdp" layoutX="424.0" layoutY="378.0" opacity="0.5" prefHeight="60.0" prefWidth="494.0" style="-fx-border-color: #0b8fac;" text="MOT DE PASSE" />
          <ImageView fitHeight="60.0" fitWidth="67.0" layoutX="326.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
             <image>
                <Image url="@../../../images/mdp.png" />
             </image>
          </ImageView>
-         <Button layoutX="608.0" layoutY="496.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="127.0" style="-fx-background-color: #0b8fac;" text="CONNEXION" textFill="WHITE">
+         <Button layoutX="608.0" layoutY="496.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="60.0" prefWidth="127.0" style="-fx-background-color: #0b8fac;" text="CONNEXION" textFill="WHITE">
             <font>
                <Font name="System Bold" size="15.0" />
             </font>

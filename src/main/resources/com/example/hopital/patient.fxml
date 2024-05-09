@@ -12,59 +12,121 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="991.0" prefWidth="1082.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.PatientController">
    <children>
-      <TableView layoutY="404.8" prefHeight="306.0" prefWidth="828.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="405.0">
+      <TableView fx:id="table_patient" layoutX="147.0" layoutY="599.0" prefHeight="392.0" prefWidth="923.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="599.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="ID" />
-          <TableColumn prefWidth="75.0" text="NOM" />
-            <TableColumn prefWidth="75.0" text="PRENOM" />
-            <TableColumn prefWidth="126.39996337890625" text="DATE DE NAISSANCE" />
-            <TableColumn prefWidth="91.199951171875" text="NATIONALITE" />
-            <TableColumn minWidth="9.60003662109375" prefWidth="79.20004272460938" text="SEXE" />
-            <TableColumn minWidth="6.4000244140625" prefWidth="130.39996337890625" text="NUMERO DE TELEPHONE" />
-            <TableColumn minWidth="0.0" prefWidth="108.00006103515625" text="VOIR LE CARNET" />
-            <TableColumn prefWidth="66.39996337890625" text="ACTIONS" />
+          <TableColumn fx:id="id_patient_col" prefWidth="35.0" text="ID" />
+          <TableColumn fx:id="nom_patient_col" prefWidth="119.0" text="NOM" />
+            <TableColumn fx:id="prenom_patient_col" prefWidth="135.0" text="PRENOM" />
+            <TableColumn fx:id="adresse_patient_col" prefWidth="93.0" text="ADRESSE" />
+            <TableColumn fx:id="email_patient_col" prefWidth="118.0" text="EMAIL" />
+            <TableColumn fx:id="telephone_patient_col" minWidth="6.4000244140625" prefWidth="154.0" text="NUMERO DE TELEPHONE" />
+            <TableColumn fx:id="naissance_patient_col" prefWidth="129.0" text="DATE DE NAISSANCE" />
+            <TableColumn fx:id="nationalite_patient_col" prefWidth="98.0" text="NATIONALITE" />
+            <TableColumn fx:id="sexe_patient_col" minWidth="9.60003662109375" prefWidth="41.0" text="SEXE" />
         </columns>
       </TableView>
-      <Label layoutX="322.0" layoutY="341.0" prefHeight="27.0" prefWidth="162.0" text="Liste des patients">
+      <Label layoutX="899.0" layoutY="556.0" prefHeight="18.0" prefWidth="52.0" text="Trier par" />
+      <ComboBox fx:id="nationalite_patient" layoutX="686.0" layoutY="428.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="398.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENREGISTREMENT DES PATIENTS" wrappingWidth="378.833984375">
          <font>
-            <Font size="17.0" />
+            <Font name="System Bold" size="23.0" />
          </font>
-      </Label>
-      <ImageView fitHeight="94.0" fitWidth="52.0" layoutX="769.0" pickOnBounds="true" preserveRatio="true">
+      </Text>
+      <ImageView fitHeight="373.0" fitWidth="391.0" layoutX="25.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../images/logo_2.png" />
+            <Image url="@../../../images/patientq.png" />
          </image>
       </ImageView>
-      <Label layoutX="624.0" layoutY="360.0" prefHeight="18.0" prefWidth="52.0" text="Trier par" />
-      <ComboBox layoutX="695.0" layoutY="356.0" prefHeight="26.0" prefWidth="111.0" />
-      <Label layoutX="240.0" layoutY="26.0" text="Enregistrement des patients" />
-      <Label layoutX="155.0" layoutY="81.0" text="Nom" />
-      <Label layoutX="147.0" layoutY="143.0" text="Prénom" />
-      <Label layoutX="381.0" layoutY="271.0" text="Nationalité" />
-      <Label layoutX="375.0" layoutY="81.0" text="Adresse" />
-      <Label layoutX="587.0" layoutY="116.0" text="Sexe" />
-      <Label layoutX="143.0" layoutY="271.0" text="Nationalité" />
-      <Label layoutX="344.0" layoutY="202.0" text="Numéro de téléphone" />
-      <Label layoutX="123.0" layoutY="202.0" text="Date de Naissance" />
-      <Label layoutX="382.0" layoutY="143.0" text="Email" />
-      <TextField layoutX="98.0" layoutY="99.0" />
-      <TextField layoutX="98.0" layoutY="161.0" />
-      <TextField layoutX="328.0" layoutY="99.0" />
-      <TextField layoutX="328.0" layoutY="161.0" />
-      <TextField layoutX="336.0" layoutY="224.0" />
-      <TextField layoutX="342.0" layoutY="292.0" />
-      <TextField layoutX="106.0" layoutY="292.0" />
-      <DatePicker layoutX="85.0" layoutY="224.0" />
-      <RadioButton layoutX="535.0" layoutY="134.0" mnemonicParsing="false" text="Homme" />
-      <RadioButton layoutX="620.0" layoutY="134.0" mnemonicParsing="false" text="Femme" />
-      <Button layoutX="575.0" layoutY="187.0" mnemonicParsing="false" text="Enregistrer le patient" />
-      <ImageView fitHeight="102.0" fitWidth="111.0" layoutX="587.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../images/enregistrement.png" />
-         </image>
-      </ImageView>
+      <TextField fx:id="nom_patient" layoutX="682.0" layoutY="84.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="601.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom :" wrappingWidth="82.833984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="prenom_patient" layoutX="684.0" layoutY="143.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="575.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom :" wrappingWidth="98.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="adresse_patient" layoutX="684.0" layoutY="200.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="578.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse :" wrappingWidth="91.833984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email_patient" layoutX="685.0" layoutY="256.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="604.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :" wrappingWidth="91.833984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="telephone_patient" layoutX="685.0" layoutY="313.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="433.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de telephone :" wrappingWidth="245.833984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="471.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date de Naissance :" wrappingWidth="202.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="naissance_patient" layoutX="686.0" layoutY="370.0" prefHeight="48.0" prefWidth="328.0" />
+      <Text layoutX="548.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nationalite :" wrappingWidth="134.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="sexe_m_patient" layoutX="699.0" layoutY="489.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="66.0" text="M">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="sexe_f_patient" layoutX="796.0" layoutY="490.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="66.0" text="F">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </RadioButton>
+      <Text layoutX="613.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexe :" wrappingWidth="66.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button fx:id="enregistrer_patient" layoutX="462.0" layoutY="543.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="42.0" prefWidth="159.0" text="ENREGISTRER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="trier_patient" layoutX="950.0" layoutY="553.0" prefHeight="18.0" prefWidth="121.0" />
+      <Button fx:id="modifier_patient" layoutX="8.0" layoutY="665.0" mnemonicParsing="false" onAction="#updatefonction" prefHeight="64.0" prefWidth="133.0" text="MODIFIER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="supprimer_patient" layoutX="8.0" layoutY="732.0" mnemonicParsing="false" onAction="#deletefonction" prefHeight="64.0" prefWidth="133.0" text="SUPPRIMER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="imprimer_patient" layoutX="7.0" layoutY="799.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="133.0" text="IMPRIMER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="save_patient" layoutX="8.0" layoutY="868.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="133.0" text="SAUVEGARDER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="carnet_patient" layoutX="8.0" layoutY="598.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="133.0" text="CARNET">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

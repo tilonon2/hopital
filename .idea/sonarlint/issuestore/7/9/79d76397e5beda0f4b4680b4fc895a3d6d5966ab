@@ -1,4 +1,15 @@
 
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷ˆ£ä
-j	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îàŸÂ8Ûë³èñ1
-o	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ëæÆúÿÿÿÿ8ò§Ëèñ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷ˆ£ä8ñ«Æšõ1
+w	java:S116"VRename this field "img_attente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âª½¤üÿÿÿÿ8ş«Æšõ1
+w	java:S116"[Rename this field "img_consultation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔŞì8ş«Æšõ1
+y	java:S116"XRename this field "img_dashboard" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë ¥†üÿÿÿÿ8ş«Æšõ1
+t	java:S116"YRename this field "img_medicament" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßè›8ş«Æšõ1
+r	java:S116"VRename this field "img_patient" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôò»®8ş«Æšõ1
+s	java:S116"RRename this field "img_rdv" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ï€ùÿÿÿÿ8ş«Æšõ1
+{	java:S116 "ZRename this field "img_specialiste" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µæù´ûÿÿÿÿ8ş«Æšõ1
+z	java:S116#"YRename this field "img_traitement" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßúÉÚşÿÿÿÿ8ş«Æšõ1
+y	java:S116&"XRename this field "img_type_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›éşÿÿÿÿ8ş«Æšõ1
+o	java:S116)"SRename this field "img_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñøŞ8ş«Æšõ1
+j	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îàŸÂ8€¬Æšõ1
+o	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ëæÆúÿÿÿÿ8¬Æšõ1
+k	java:S100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¢˜ü8¬Æšõ1
