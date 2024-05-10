@@ -1,6 +1,6 @@
 -----------------Reception Details----------------
-Motif : Prise de sang
-Date : 2024-05-08
-Numéro de Tickets: 3
-Tickets: A1, B1, B2
-------------------Payee Details--------------------
+Motif : PCR
+Date : 2024-05-11
+Nombre de Sièges: 1
+Siège(s) reservé(s): A1
+-----------------Reception Details----------------

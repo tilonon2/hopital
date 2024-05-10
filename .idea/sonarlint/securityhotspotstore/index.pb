@@ -23,3 +23,7 @@ l
 <src/main/java/com/example/hopital/SpecialisteController.java,7\b\7bc107354f4fed5a6bb58e59c51bbdd843b49760
 f
 6src/main/java/com/example/hopital/DatabaseManager.java,4\4\44066daf281956394f904566fe684b6c7631575b
+h
+8src/main/java/com/example/hopital/PatientController.java,0\4\04275af7bb34d5f4c65bec639ab0117426c5b8dc
+^
+.src/main/java/com/example/hopital/Patient.java,4\5\45802da1e21c0417d6023e586e2f6701cba2f82a
