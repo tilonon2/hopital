@@ -1,0 +1,12 @@
+
+€
+java:S2583"DChange this condition so that it does not always evaluate to "false"(Ó×»•J$7af8f002-a465-4ffd-b8ca-bb08547078eb
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆ››ûJ$71f66529-2ee6-4798-a78f-88f1dcb3d8b5
+¶
+java:S2159"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(Ó×»•J$2b5d89ee-8943-4dae-a4eb-ee79d41789d3
+v
+java:S2209$"5Change this instance-reference to a static reference.(é–æêùÿÿÿÿJ$54195551-d0ab-4937-8c49-c5a5b573990d
+v
+java:S2209("5Change this instance-reference to a static reference.(Ø©ÑßøÿÿÿÿJ$237b3691-d5ea-43e2-ae07-8cfb79172d0f
+|	java:S125+"<This block of commented-out lines of code should be removed.(—³¹¡ÿÿÿÿÿJ$c4de0f52-c412-4b49-8ca1-abce7ee139cc

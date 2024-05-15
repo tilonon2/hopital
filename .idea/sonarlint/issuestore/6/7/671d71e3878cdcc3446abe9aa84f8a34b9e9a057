@@ -9,6 +9,8 @@ v	java:S116"ZRename this field "table_type_user" to match the regular express
 q
 java:S1659"ODeclare "typeutilisateurvue" and all following declarations on a separate line.(±Àİıÿÿÿÿ8†óúˆó1
 j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬—™Æ8ˆóúˆó1
+<
+java:S6905n"Don't use the query "SELECT *".( ±’§8‰œÓÔô1
 V
 java:S1854”"8Remove this useless assignment to local variable "conn".(º¸³ª8óúˆó1
 G

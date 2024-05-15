@@ -1,0 +1,24 @@
+
+“	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Şßè8Œ°Úûô1J$bf1e2c41-8027-4f0c-a596-e9e2b7b9aa5d
+˜	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÔØùÿÿÿÿ8°Úûô1J$cc652498-1adf-4c2c-8e80-8618f946a65c
+˜	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¾çíúÿÿÿÿ8‘°Úûô1J$27e1e850-b711-4901-ba0b-ad8c9c18ea4a
+“	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¹‹8‘°Úûô1J$ac3446a6-81d0-44bb-9bc4-e924206fc8eb
+˜	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ§üúÿÿÿÿ8‘°Úûô1J$caa6f436-0393-4b08-b936-b939fb46e5d3
+˜	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¾çíúÿÿÿÿ8‘°Úûô1J$249e4f22-85d9-4d3b-b38a-e9e11bf5593a
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ÿš¨êúÿÿÿÿ8•°Úûô1J$88682204-76e3-4227-9b12-53457ebc7815
+k
+java:S2095ã"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(–¥Ñğúÿÿÿÿ8»‘ÅÇõ1
+„	java:S125…"<This block of commented-out lines of code should be removed.(•üïŞşÿÿÿÿ8ºş¹Æõ1J$14632a43-b6fd-4d47-b8aa-5ae93f7c8ab4
+„	java:S125µ"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Ù·áÆõ1J$93492885-d866-4f0f-b78d-9a57b3119a29
+„	java:S125¸"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Ú·áÆõ1J$b90490eb-0347-4d6e-9ca0-91cfd74d25d1
+„	java:S125º"<This block of commented-out lines of code should be removed.(ïõİûÿÿÿÿ8ß·áÆõ1J$150ace8e-153e-48f4-8963-dbea043a4ae5
+„	java:S125¿"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ã·áÆõ1J$a8199fe5-e0e1-4898-9f82-868951aa7419
+„	java:S125Â"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8å·áÆõ1J$ac2cee87-4d0f-4bbf-98be-1de062244a5e
+„	java:S125Ä"<This block of commented-out lines of code should be removed.(ïõİûÿÿÿÿ8å·áÆõ1J$2f0ce637-ad71-49f1-9ec2-e86fd63c46ea
+„	java:S125É"<This block of commented-out lines of code should be removed.(Õü³½øÿÿÿÿ8æ·áÆõ1J$66895d4c-4655-450e-8258-a6f18dad9e11
+~	java:S125Î"<This block of commented-out lines of code should be removed.(“·<8æ·áÆõ1J$39e213e6-5f34-40c8-bcbe-847c7a25e4c1
+„	java:S125Ó"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8æ·áÆõ1J$958b5abe-66dd-41f7-94ee-db54a390465d
+„	java:S125Ø"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ç·áÆõ1J$3282b968-f96d-485f-a73a-9cba6ad127fd
+	java:S125ü"<This block of commented-out lines of code should be removed.(¤ç’Ê8ë¡Æõ1J$a15266a2-77a1-48c7-8ec0-8eeb53f3621c
+n
+java:S1068"&Remove this unused "in" private field.(Ó‘š„ûÿÿÿÿ8¬±Úûô1J$69fe87e3-9126-4430-a5c7-ee3646a1946e

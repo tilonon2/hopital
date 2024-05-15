@@ -1,5 +1,5 @@
 
-D
-java:S2140#")Use "java.util.Random.nextInt()" instead.(²÷–Òÿÿÿÿÿ
-K
-java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à
+e
+java:S2140#")Use "java.util.Random.nextInt()" instead.(ŒÔÖJ$07d9ac29-9202-4a7c-81e4-bf3017888031
+q
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£àJ$b6d1b640-f952-4585-877c-1a18f402d540

@@ -1,3 +1,187 @@
 
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Îæñ”ÿÿÿÿÿ
+
+java:S1192Õ"LDefine a constant instead of duplicating this literal "not working" 3 times.(ÌãÜŞ8ÇäÀÈõ1J$6f42cdf0-2353-4ebb-a2c4-0a314b4f117b
+”	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¹‹8âäÀÈõ1J$a5ddfd61-3cc3-476e-948c-c5874b945f4a
+™	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ§üúÿÿÿÿ8ääÀÈõ1J$b315df65-6ee3-4804-acfe-79e7c1083b31
+™	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¾çíúÿÿÿÿ8åäÀÈõ1J$11e7e748-bd50-464b-8ec3-4b591aaff43b
+l
+java:S1604ê"(Make this anonymous inner class a lambda(ş¼ıè8êäÀÈõ1J$cd549673-e5af-4adf-88f9-100c7b27d6d6
+l
+java:S1604ó"(Make this anonymous inner class a lambda(ò¤ªµ8ìäÀÈõ1J$d261e3e5-2b01-4b00-a465-dc06760c7f54
+l
+java:S1604ú"(Make this anonymous inner class a lambda(áŸ™8íäÀÈõ1J$30fbbd4c-1a0e-4c89-acd4-03cddf78b284
+q
+java:S1604‚"(Make this anonymous inner class a lambda(š¯–·ùÿÿÿÿ8ïäÀÈõ1J$a5735cc6-6705-4d4c-b83a-1bcb0650fd78
+l
+java:S1604Š"(Make this anonymous inner class a lambda( Ü¢¹8ïäÀÈõ1J$82b0c01d-b2a9-46ea-ac21-8631b529fbba
+q
+java:S1604’"(Make this anonymous inner class a lambda(»Ìœéøÿÿÿÿ8ñäÀÈõ1J$a4655962-6111-437f-aab5-c25ce17f83e7
+l
+java:S1604š"(Make this anonymous inner class a lambda(Âó¥Ú8òäÀÈõ1J$d6cf1202-5997-4b71-9fac-94dbddcb947c
+k
+java:S1604¢"(Make this anonymous inner class a lambda(†œ¯18óäÀÈõ1J$70ad54ec-93d2-4275-991c-10160a21dc08
+q
+java:S1604ª"(Make this anonymous inner class a lambda(€ãµ¥şÿÿÿÿ8ôäÀÈõ1J$412ae4eb-c78d-41cc-b95c-ddda8fd5e049
+q
+java:S1604²"(Make this anonymous inner class a lambda(·åÿïúÿÿÿÿ8õäÀÈõ1J$d46508d6-9c4a-441b-94af-55c52208f4a6
+q
+java:S1604º"(Make this anonymous inner class a lambda(Íííİşÿÿÿÿ8öäÀÈõ1J$24970458-147c-44c6-8807-6383acba0950
+l
+java:S1604Â"(Make this anonymous inner class a lambda(®©õĞ8ùäÀÈõ1J$1998fbb7-fc01-4002-a465-5d4fd8e945f1
+q
+java:S1604Ê"(Make this anonymous inner class a lambda(šÊúİÿÿÿÿÿ8úäÀÈõ1J$cd86242f-59e3-4b95-961b-47e620979f9b
+q
+java:S1604Ò"(Make this anonymous inner class a lambda(ÑÌÜÓşÿÿÿÿ8ûäÀÈõ1J$2c9b48ba-6e40-4af1-8c51-a505e2be40de
+q
+java:S1604Ú"(Make this anonymous inner class a lambda(«¶É¨ùÿÿÿÿ8üäÀÈõ1J$ee33a7a4-3e5d-4ecb-bee2-25c986816ec0
+q
+java:S1604â"(Make this anonymous inner class a lambda(ŠÖÀ¯şÿÿÿÿ8ıäÀÈõ1J$030406bb-5aa6-40ca-999a-cab3b2c7ce04
+l
+java:S1604ê"(Make this anonymous inner class a lambda(ôÎ¬˜8şäÀÈõ1J$fb5c432a-0ad9-48d1-8db4-7c546a98715d
+l
+java:S1604ò"(Make this anonymous inner class a lambda(ŠİÈÌ8€åÀÈõ1J$07052af7-3394-49e5-849b-83c25a0138f2
+k
+java:S1604ú"(Make this anonymous inner class a lambda(Ä„¶L8åÀÈõ1J$6bcffe1c-5a99-468f-95df-00392b7419e6
+q
+java:S1604…"(Make this anonymous inner class a lambda(¾ïÙ³ùÿÿÿÿ8‚åÀÈõ1J$7910e60f-472b-490b-9c41-b8e7b62f1f7f
+l
+java:S1604"(Make this anonymous inner class a lambda(â‰œ8ƒåÀÈõ1J$b394369d-78c3-4ad9-b64a-e83224430cf0
+q
+java:S1604•"(Make this anonymous inner class a lambda(ğË¤Èûÿÿÿÿ8…åÀÈõ1J$ef9844ab-edff-4c6e-863f-32653d8d8e17
+l
+java:S1604Ÿ"(Make this anonymous inner class a lambda(¼ğÄ8†åÀÈõ1J$81713ff4-83af-4bd8-899f-832081ecb21a
+l
+java:S1604§"(Make this anonymous inner class a lambda(óà²Ö8‡åÀÈõ1J$a94208a8-abb4-47da-afcd-1f9bda8a6450
+l
+java:S1604¯"(Make this anonymous inner class a lambda(¤Ø’Á8ˆåÀÈõ1J$b100ae19-30fd-449e-bedf-3adfd8ae1c77
+l
+java:S1604¹"(Make this anonymous inner class a lambda(õ¥§“8‰åÀÈõ1J$ba94fe02-672a-4e85-8d9c-cec65542d8c6
+l
+java:S1604Á"(Make this anonymous inner class a lambda(Ö‘ç’8‹åÀÈõ1J$7b83a6f1-abb0-4efc-96c8-041f842dc329
+l
+java:S1604É"(Make this anonymous inner class a lambda(®ÓÁ§8ŒåÀÈõ1J$201ec225-affd-46bc-907a-1fbcf13519ea
+l
+java:S1604Ó"(Make this anonymous inner class a lambda(—Ñş8åÀÈõ1J$68b0b165-edf7-4ff8-8ce0-05b8a4c4a375
+l
+java:S1604Û"(Make this anonymous inner class a lambda(Çøåã8åÀÈõ1J$859a4aaa-e231-4300-9482-fc2ae847a97d
+l
+java:S1604ã"(Make this anonymous inner class a lambda(õÚğò8‘åÀÈõ1J$41bdee8a-7c4a-4ba4-b3d5-c9c42ac44cdc
+l
+java:S1604ë"(Make this anonymous inner class a lambda(‹ÒµÊ8”åÀÈõ1J$c7c94b5c-1ee3-49c1-b117-24434aad93a1
+q
+java:S1604ó"(Make this anonymous inner class a lambda(³‡›åşÿÿÿÿ8–åÀÈõ1J$2aa1c788-0a6f-4c19-8e8a-d39687d10837
+k
+java:S1604û"(Make this anonymous inner class a lambda(—Ü|8˜åÀÈõ1J$f2892f67-d396-40c3-a986-0fcc2e2b0ac9
+l
+java:S1604ƒ"(Make this anonymous inner class a lambda(­øğº8™åÀÈõ1J$4fb7e249-b56e-41aa-aafb-02079979c114
+q
+java:S1604‹"(Make this anonymous inner class a lambda(˜Âöâøÿÿÿÿ8›åÀÈõ1J$20a7e0f9-721e-4e9d-9426-46086dae0e0b
+l
+java:S1604“"(Make this anonymous inner class a lambda(İ°û×8åÀÈõ1J$c022db5b-9d3a-4cd1-b727-1e759e0b4f62
+l
+java:S1604Ÿ"(Make this anonymous inner class a lambda(ößÛâ8ŸåÀÈõ1J$618ba681-d9d5-41f1-875f-424a6efb2674
+l
+java:S1604¨"(Make this anonymous inner class a lambda(ˆÏ¬‹8¡åÀÈõ1J$b4a47365-5126-4fd3-be48-be089841e9fd
+q
+java:S1604°"(Make this anonymous inner class a lambda(ò€š¹ûÿÿÿÿ8£åÀÈõ1J$b4cd877a-d850-4268-b826-bdec0c888ae2
+l
+java:S1604º"(Make this anonymous inner class a lambda(Êçã¾8¥åÀÈõ1J$26d743d4-2d2b-4da9-bd6b-3266c97bdfcd
+l
+java:S1604Â"(Make this anonymous inner class a lambda(æ±áô8¦åÀÈõ1J$9710099d-fbb0-40b4-b1fe-e735ce04bc42
+q
+java:S1604Ê"(Make this anonymous inner class a lambda(½µË•şÿÿÿÿ8¨åÀÈõ1J$eda49013-294e-408f-95be-7f55b6b66554
+q
+java:S1604Ô"(Make this anonymous inner class a lambda(åŸúıÿÿÿÿ8ªåÀÈõ1J$3cf92f97-a1f8-4e68-a3db-4e7b67f9423c
+l
+java:S1604Ü"(Make this anonymous inner class a lambda(®ÑÁ¡8«åÀÈõ1J$f4bb9b48-e663-4eef-b232-21cc3a685b1e
+l
+java:S1604ä"(Make this anonymous inner class a lambda(‹¸¾ô8­åÀÈõ1J$ebd16641-e9f9-434f-a300-c2d5674e5aca
+q
+java:S1604í"(Make this anonymous inner class a lambda(†êÒŠıÿÿÿÿ8¯åÀÈõ1J$bd5bd094-918d-4f59-914d-42f9c3a1abf4
+q
+java:S1604õ"(Make this anonymous inner class a lambda(‡ê‘¿øÿÿÿÿ8±åÀÈõ1J$fbd6c644-b096-4575-83ea-c7118af3a3b9
+l
+java:S1604ı"(Make this anonymous inner class a lambda(ƒàíœ8³åÀÈõ1J$57fecf89-76b9-445b-9d4e-3f95d02532af
+q
+java:S1604…"(Make this anonymous inner class a lambda(–±Úˆÿÿÿÿÿ8µåÀÈõ1J$b1c884fb-29db-4a2c-98c7-9f73469047e8
+l
+java:S1604"(Make this anonymous inner class a lambda(Ø§úï8¶åÀÈõ1J$ef2ff7a1-65f6-4c1f-8520-4cff5aedd430
+q
+java:S1604•"(Make this anonymous inner class a lambda(º¿Åøûÿÿÿÿ8¸åÀÈõ1J$46517c6c-14c7-4783-b0c0-80c9bab027d3
+k
+java:S1604"(Make this anonymous inner class a lambda(úÜ²8ºåÀÈõ1J$fb5b0982-2c62-47cc-95e9-86801541e838
+k
+java:S1604¥"(Make this anonymous inner class a lambda(Ú¦‚_8ºåÀÈõ1J$0f86a1ab-5240-4f06-aeb4-952414916e59
+l
+java:S1604­"(Make this anonymous inner class a lambda(‘¦ã‰8»åÀÈõ1J$18d4aa8a-3cdc-46f3-a4a1-e35a49b4abf2
+q
+java:S1604¹"(Make this anonymous inner class a lambda(Ï¥ ‚ûÿÿÿÿ8½åÀÈõ1J$044248d0-6cec-4984-9e66-d3a2f559c363
+q
+java:S1604Á"(Make this anonymous inner class a lambda(Àò£¾üÿÿÿÿ8¾åÀÈõ1J$fd886114-48c3-442b-95f9-79ab41a4ffd0
+q
+java:S1604É"(Make this anonymous inner class a lambda(Ö÷¼øÿÿÿÿ8ÁåÀÈõ1J$ff9d9d34-03b9-4ef5-9814-7d3443ce3a6d
+l
+java:S1604Ó"(Make this anonymous inner class a lambda(½ áŠ8ÂåÀÈõ1J$5f722212-d850-4391-b135-324f69139edc
+q
+java:S1604Û"(Make this anonymous inner class a lambda(¢ùÿ–ıÿÿÿÿ8ÃåÀÈõ1J$060b657c-ef20-46cb-9119-c500f6f444ef
+q
+java:S1604ã"(Make this anonymous inner class a lambda(«Ìßùÿÿÿÿ8ÅåÀÈõ1J$a21a7b5a-93da-4269-8e7f-e7a6a5d2bba2
+q
+java:S1604ì"(Make this anonymous inner class a lambda(û²†øÿÿÿÿ8ÆåÀÈõ1J$14cbcb98-b0b8-4604-ba30-389f8393fe79
+q
+java:S1604õ"(Make this anonymous inner class a lambda(êàÕéûÿÿÿÿ8ÇåÀÈõ1J$b1fd8186-1ec8-4a72-9292-72c65ad58f6b
+l
+java:S1604ı"(Make this anonymous inner class a lambda(”„Æ‹8ÈåÀÈõ1J$2929cddd-3253-4e17-880f-2742cab97e5d
+q
+java:S1604‡"(Make this anonymous inner class a lambda(Áë¢µøÿÿÿÿ8ÊåÀÈõ1J$0a162229-dfba-4c76-a72e-b205ccbd2819
+q
+java:S1604"(Make this anonymous inner class a lambda(öÌ‹Øûÿÿÿÿ8ÌåÀÈõ1J$2cdcc382-fccb-46be-bcd4-7cbad70ddc99
+l
+java:S1604—"(Make this anonymous inner class a lambda(ùå–À8ÍåÀÈõ1J$c7b9f75f-9c2d-4542-abdf-54dffb756b49
+l
+java:S1604Ÿ"(Make this anonymous inner class a lambda(¤€‹¤8ÏåÀÈõ1J$da1e9a22-f5fd-4f45-8f75-7b1fffe6f638
+l
+java:S1604§"(Make this anonymous inner class a lambda(¢ÕôŒ8ĞåÀÈõ1J$a4961fba-e14e-4401-a865-5d60e583cd5e
+l
+java:S1604¯"(Make this anonymous inner class a lambda(êİÛ¤8ÑåÀÈõ1J$9f2e0c3d-eeb6-41db-975a-05074d9ded26
+l
+java:S1604·"(Make this anonymous inner class a lambda(¬”ğ8ÒåÀÈõ1J$51ad13ca-f1bf-4e99-8f29-d5b66847473c
+q
+java:S1604¿"(Make this anonymous inner class a lambda(í™¨ıÿÿÿÿ8ÓåÀÈõ1J$72c9592c-36d2-493c-8125-b937fea4e4d7
+q
+java:S1604Ç"(Make this anonymous inner class a lambda(‡¹ıàûÿÿÿÿ8ÕåÀÈõ1J$04a0cc34-184d-4783-87a4-871f5c3dc055
+‰
+java:S1659"ADeclare "exit" and all following declarations on a separate line.(œŒæÚúÿÿÿÿ8¢ÍöĞõ1J$7fc0cf5e-599f-4bc5-b76c-6e685b7b2160
+	java:S125¼"<This block of commented-out lines of code should be removed.(“›Ùï8©ÍöĞõ1J$9c047feb-8b75-42c6-9444-a2ecce82873e
+	java:S125Á"<This block of commented-out lines of code should be removed.(¸İØÍ8ªÍöĞõ1J$bdd59f57-54d7-4087-9d5f-f5fd0b080de7
+„	java:S125Ã"<This block of commented-out lines of code should be removed.(‘´ßäûÿÿÿÿ8ªÍöĞõ1J$c85fa436-ab9c-426d-af86-f90d4a8b988c
+{
+java:S1135ä"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¶ÍöĞõ1J$e45ca2b3-8195-4a15-a13e-5138a5193e29
+–
+java:S3776Ó"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(àœÃ³8ãÍöĞõ1J$e241a76b-302a-4e0a-b9a3-5b1f65779871
+e	java:S131Ô""Add a default case to this switch.(Å¡¤×8åÍöĞõ1J$7d0f843f-aff1-46b6-b91a-361823b2cd35
+n	java:S106Õ"+Replace this use of System.out by a logger.(ÌãÜŞ8æÍöĞõ1J$d7e1f062-b6bb-49b1-98b0-b89f50dd0661
+–
+java:S3776Ã"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(Šêö®8ëÍöĞõ1J$f41650bb-c2b5-4933-b112-b8eb2b8a82e1
+e	java:S131Å""Add a default case to this switch.(İ×ø—8ìÍöĞõ1J$16cdde29-5575-43f1-af8d-da1ab87300f7
+n	java:S106Æ"+Replace this use of System.out by a logger.(ÌãÜŞ8ìÍöĞõ1J$4ce30b44-c616-4636-91ba-2da857d64aca
+›
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 73 to the 15 allowed.(œ­´úÿÿÿÿ8ğÍöĞõ1J$6eb06a3d-b0e3-4649-aea5-41e2a5c7ac03
+j	java:S131³""Add a default case to this switch.(¢©‘×øÿÿÿÿ8òÍöĞõ1J$935ee5de-874e-4bad-88aa-7fed77c9b228
+n	java:S106´"+Replace this use of System.out by a logger.(ÌãÜŞ8òÍöĞõ1J$572e4d60-90d9-4346-b517-ee0ed6d154a2
+›
+java:S3776å	"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(é·Ùíûÿÿÿÿ8øÍöĞõ1J$11b2aeb6-b561-4f10-ac6b-79454da0c196
+
+java:S1854İ"8Remove this useless assignment to local variable "file".(Öÿıÿÿÿÿ8úÍöĞõ1J$194f290a-eae2-45ae-842e-8033b43a5136
+„	java:S125è	"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8‘¸ŸÒõ1J$f24160c5-f659-41ea-8747-44c043505ad8
+„	java:S125ì	"<This block of commented-out lines of code should be removed.(ïõİûÿÿÿÿ8‘¸ŸÒõ1J$bf9c4cf6-5935-40fc-9b9a-14563721bd0a
+	java:S125Å"<This block of commented-out lines of code should be removed.(»Ôéˆ8ÁŞÓõ1J$a4bee23a-68ea-424b-b7d6-aa99e99777d0
+	java:S125Ú"<This block of commented-out lines of code should be removed.(Ã¥¥·8ÁŞÓõ1J$d2b2b934-5594-483e-ab1e-a802b22d9c77
+r
+java:S1481İ")Remove this unused "file" local variable.(Öÿıÿÿÿÿ8…ÎöĞõ1J$f412f6cd-08a3-4a9f-8fee-cba0abc4d2a7
+„	java:S125ã"<This block of commented-out lines of code should be removed.(§¡á”ùÿÿÿÿ8†ÎöĞõ1J$c6f17e85-4a61-4f4c-81da-5f544e710ee3
+„	java:S125ë"<This block of commented-out lines of code should be removed.(£æ×£ÿÿÿÿÿ8‡ÎöĞõ1J$f83ab8a0-08cb-4b18-866e-e8081d4fbd3c
+†
+java:S1126ˆ"BReplace this if-then-else statement by a single method invocation.(¡Õ“¹8‰ÎöĞõ1J$5caae85e-7cdc-4b78-acd0-9b2d0ae6f9b7
+~
+java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.(Ø µ8ŠÎöĞõ1J$1d47179f-fd31-45cf-a6f9-2eb35c321095

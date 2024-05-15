@@ -1,0 +1,36 @@
+
+”	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âĞºı8Ä¹€Æõ1J$374fd830-b4d8-4b8e-af0e-94c2110fa27c
+”	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“÷£8Å¹€Æõ1J$4d6b359a-edb5-4890-b9d9-e7fd98c9e58a
+™	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï™ïóüÿÿÿÿ8Å¹€Æõ1J$b8b46579-18d2-4a8d-964c-5bd813ea124a
+”	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¿Ï8Æ¹€Æõ1J$1093d380-e565-4360-b689-116e8234e2a5
+™	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•æ­úÿÿÿÿ8Æ¹€Æõ1J$5334f6fb-45fd-4d32-91ce-7ce23d83f60a
+¬
+java:S4165J"dRemove this useless assignment; "taille" already holds the assigned value along all execution paths.(ş—ğŸşÿÿÿÿ8…º€Æõ1J$1072ba94-5d92-4d88-8231-8c19d5a38bb8
+©
+java:S4165["aRemove this useless assignment; "age" already holds the assigned value along all execution paths.(ú­³Ìúÿÿÿÿ8…º€Æõ1J$6e8897c9-65d5-456f-8b3a-c22c775eb12c
+¦
+java:S4165m"cRemove this useless assignment; "poids" already holds the assigned value along all execution paths.(öµ†’8…º€Æõ1J$de494354-397a-4169-b07b-ef906fb5ff4a
+}	java:S116"aRename this field "temperature_corporelle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ş‚½8ÎÑ‚Æõ1
+¥	java:S116"^Rename this field "pression_arterielle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ì©Şşÿÿÿÿ8Œº€Æõ1J$19aa8580-47db-4059-a93c-e0796cf4a58f
+¥	java:S116"^Rename this field "frequence_cardiaque" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÑ®ëøÿÿÿÿ8º€Æõ1J$7c279b36-a9df-4d9a-ae16-12d3313b5e35
+¨	java:S116"aRename this field "frequence_respiratoire" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‡Åıÿÿÿÿ8º€Æõ1J$0876b826-2270-4525-87b6-601d6b4cfebd
+Ÿ	java:S116"]Rename this field "saturation_oxygene" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¡Úğ8º€Æõ1J$f5b16ff9-4418-441e-b60b-fe573defda1b
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²×ÆŠûÿÿÿÿJ$f1aafa25-6097-40e8-a86e-b86361d67fd6
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÅÖ£—øÿÿÿÿ8£º€Æõ1J$d0fbbca2-79e2-4b24-b1cc-cda13a1c39a2
+„
+java:S6353|"<Use concise character class syntax '\\d' instead of '[0-9]'.(à³ÃÃıÿÿÿÿ8Áº€Æõ1J$269587db-e9fc-4dad-83d1-fd95d3a68281
+–	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÛàéşÿÿÿÿ8Õº€Æõ1J$c452d220-ca23-4978-b9dd-8c75f5e2546d
+–	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï™ïóüÿÿÿÿ8Øº€Æõ1J$f9475701-dd3c-4e48-aab8-20adeb745610
+„	java:S125æ"<This block of commented-out lines of code should be removed.(©éÎøÿÿÿÿ8áº€Æõ1J$2507fa80-3f8d-4a7b-8b9c-2c9e36706e50
+	java:S125ì"<This block of commented-out lines of code should be removed.(¡Ê¹é8âº€Æõ1J$aa6ea2b1-2eb1-42cb-b5ab-d7f13a82c5a7
+	java:S125î"<This block of commented-out lines of code should be removed.(¡Õ±š8âº€Æõ1J$032f5ab9-56e3-4501-91f8-2638fef1fd36
+„	java:S125ò"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8âº€Æõ1J$c7f57f83-6917-41d5-9662-f3ef29f32359
+„	java:S125÷"<This block of commented-out lines of code should be removed.(ßååóûÿÿÿÿ8âº€Æõ1J$1449fbc4-4d62-4808-9ca0-ab90595dfb66
+~	java:S125ı"<This block of commented-out lines of code should be removed.(€¡ñ@8ãº€Æõ1J$f0a679ac-ae47-4436-a96c-9fb1c55bf391
+	java:S125ÿ"<This block of commented-out lines of code should be removed.(¡Õ±š8ãº€Æõ1J$3f955191-b4a8-4225-8dbd-29250150a31a
+„	java:S125†"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ãº€Æõ1J$663d4c83-e6f0-4dde-81d3-3eced1dc8f4a
+„	java:S125ˆ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ãº€Æõ1J$1ee59457-a196-4f2c-abfc-3f2b38d221f4
+„	java:S125"<This block of commented-out lines of code should be removed.(Úòª˜üÿÿÿÿ8ãº€Æõ1J$4d7caa3f-8a67-431d-a6f9-b42d294c98ba
+„	java:S125’"<This block of commented-out lines of code should be removed.(à£Ö‹ùÿÿÿÿ8äº€Æõ1J$56f511c2-a254-4ade-9be3-0e8eb98d12ac
+„	java:S125”"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8äº€Æõ1J$4d836e1b-1ffe-4f73-a0c8-0c949bdf416b

@@ -1,4 +1,4 @@
 
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚÕíßÿÿÿÿÿ8é÷Ëó1
-y
-java:S1450"\Remove the "recentlyAdded" field and declare it as a local variable in the relevant methods.(§ü«8ìûËó1
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚÕíßÿÿÿÿÿ8é÷Ëó1J$24b187a2-e963-43bc-9b46-0b75c7df98a3
+Ÿ
+java:S1450"\Remove the "recentlyAdded" field and declare it as a local variable in the relevant methods.(§ü«8ìûËó1J$76d7a9cb-580b-482c-932f-762a7a5ba00a
