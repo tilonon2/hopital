@@ -14,13 +14,18 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("connexion_new.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1381, 980);
+        //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("connexion_new.fxml"));
+        //Scene scene = new Scene(fxmlLoader.load(), 1381, 980);
+
+        Parent root = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+        Scene scene = new Scene(root);
+
+
 
 
 // Debut Autre manière d'implémenter
 
-        //Parent root = FXMLLoader.load(getClass().getResource("connexion_new.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("calendar.fxml"));
         //stage.initStyle(StageStyle.TRANSPARENT);
         //Scene scene = new Scene(root);
 
@@ -28,7 +33,7 @@ public class HelloApplication extends Application {
         scene.setFill(Color.TRANSPARENT);
 
 //Pour cacher les boutons du haut
-        stage.initStyle(StageStyle.TRANSPARENT);
+        //stage.initStyle(StageStyle.TRANSPARENT);
 
         //Fin Autre manière d'implémenter
 

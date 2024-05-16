@@ -13,9 +13,9 @@
 
 <AnchorPane prefHeight="980.0" prefWidth="1082.0" style="-fx-background-color: #ECF3FD;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hopital.dashController">
    <children>
-      <HBox prefHeight="980.0" prefWidth="1082.0">
+      <HBox prefHeight="980.0" prefWidth="1082.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <VBox prefHeight="980.0" prefWidth="974.0">
+            <VBox prefHeight="980.0" prefWidth="957.0">
                <children>
                   <HBox prefHeight="55.0" prefWidth="745.0" stylesheets="@../../../../../css/styleDash.css">
                      <children>
@@ -54,7 +54,7 @@
                   </HBox>
                   <VBox prefHeight="263.0" prefWidth="731.0">
                      <children>
-                        <HBox prefHeight="100.0" prefWidth="200.0">
+                        <HBox prefHeight="38.0" prefWidth="400.0">
                            <children>
                               <Label alignment="CENTER" contentDisplay="TOP" prefHeight="102.0" prefWidth="230.0" text="Soins de santé" textFill="#808080">
                                  <font>
@@ -63,7 +63,7 @@
                               </Label>
                            </children>
                         </HBox>
-                        <HBox prefHeight="241.0" prefWidth="715.0" style="-fx-background-radius: 25; -fx-background-color: #fff;">
+                        <HBox alignment="CENTER_LEFT" prefHeight="241.0" prefWidth="694.0" style="-fx-background-radius: 25; -fx-background-color: #fff;">
                            <children>
                               <VBox prefHeight="265.0" prefWidth="400.0">
                                  <children>
@@ -108,7 +108,7 @@
                                     </HBox>
                                  </children>
                               </VBox>
-                              <ImageView fitHeight="258.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="203.0" fitWidth="263.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../../../images/undraw_medicine_b1ol.png" />
                                  </image>
@@ -120,12 +120,12 @@
                         </HBox>
                      </children>
                   </VBox>
-                  <ScrollPane prefHeight="245.0" prefWidth="715.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
+                  <ScrollPane prefHeight="228.0" prefWidth="660.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
                      <VBox.margin>
                         <Insets left="15.0" />
                      </VBox.margin>
                      <content>
-                        <HBox fx:id="cardLayoout" alignment="CENTER_LEFT" prefHeight="227.0" prefWidth="1399.0" spacing="10.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
+                        <HBox fx:id="cardLayoout" alignment="CENTER_LEFT" prefHeight="211.0" prefWidth="1399.0" spacing="10.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
                      </content>
                   </ScrollPane>
                   <HBox prefHeight="397.0" prefWidth="731.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
@@ -144,7 +144,6 @@
                               <Insets />
                            </HBox.margin>
                         </VBox>
-                        <Pane prefHeight="397.0" prefWidth="437.0" HBox.hgrow="ALWAYS" />
                      </children>
                      <padding>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -152,10 +151,31 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="980.0" prefWidth="574.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
+            <VBox alignment="TOP_CENTER" prefHeight="980.0" prefWidth="574.0" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
                <HBox.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" />
+                  <Insets left="10.0" />
                </HBox.margin>
+               <children>
+                  <Pane prefHeight="90.0" prefWidth="391.0" />
+                  <fx:include source="calendar.fxml" />
+                  <VBox>
+                     <children>
+                        <Label prefHeight="57.0" prefWidth="389.0" text="Evènements" textFill="#2f3192">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <ScrollPane prefHeight="423.0" prefWidth="391.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css">
+                           <content>
+                              <VBox fx:id="bookContainer" prefHeight="828.0" prefWidth="372.0" style="-fx-background-color: #ECF3FD;" styleClass="transparent" stylesheets="@../../../../../css/styleDash.css" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
             </VBox>
          </children>
       </HBox>
