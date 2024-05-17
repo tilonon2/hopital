@@ -14,12 +14,12 @@
       <HBox alignment="BOTTOM_CENTER" prefHeight="27.0" prefWidth="238.0" spacing="5.0">
          <children>
             <Button mnemonicParsing="false" onAction="#backOneMonth" opacity="0.45" text="&lt;" />
-            <Text fx:id="year" fill="#fffdfd" strokeType="OUTSIDE" strokeWidth="0.0" text="####">
+            <Text fx:id="month" fill="#f5f2f2" strokeType="OUTSIDE" strokeWidth="0.0" text="####">
                <font>
                   <Font name="Baloo 2 SemiBold" size="19.0" />
                </font>
             </Text>
-            <Text fx:id="month" fill="#f5f2f2" strokeType="OUTSIDE" strokeWidth="0.0" text="####">
+            <Text fx:id="year" fill="#fffdfd" strokeType="OUTSIDE" strokeWidth="0.0" text="####">
                <font>
                   <Font name="Baloo 2 SemiBold" size="19.0" />
                </font>
