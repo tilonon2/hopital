@@ -1,6 +1,7 @@
 
-`
-java:S1854">Remove this useless assignment to local variable "fxmlLoader".(ψώτ†ϊÿÿÿÿ8λΨΫρχ1
-Q
-java:S1481"/Remove this unused "fxmlLoader" local variable.(ψώτ†ϊÿÿÿÿ8ρΨΫρχ1
-~	java:S125"<This block of commented-out lines of code should be removed.(μ―ξΧ8΅ΣΠρχ1J$eb1c2219-fdfa-41e2-9554-6966fa64b43f
+W	java:S125"<This block of commented-out lines of code should be removed.(Δθξ{8‰κάψ1
+X	java:S125"<This block of commented-out lines of code should be removed.(“αΆτ8κάψ1
+X	java:S125$"<This block of commented-out lines of code should be removed.(Γι¨8‘κάψ1
+P
+java:S1128
+"4Remove this unused import 'javafx.stage.StageStyle'.(¶©28“κάψ1
